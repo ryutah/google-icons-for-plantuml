@@ -10,10 +10,10 @@ Currently, only icons for c4 model are available.
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
 !define GICONURL https://raw.githubusercontent.com/ryutah/plantuml-icons-for-plantuml/master/dist
-!include GICONURL/cloud_run/cloud_run.puml
-!include GICONURL/app_engine/app_engine.puml
-!include GICONURL/datastore/datastore.puml
-!include GICONURL/cloud_storage/cloud_storage.puml
+!include GICONURL/cloud_run.puml
+!include GICONURL/app_engine.puml
+!include GICONURL/datastore.puml
+!include GICONURL/cloud_storage.puml
 
 System(cloud_run, "Cloud Run", "webapp", $sprite="cloud_run")
 System(app_engine, "App Engine", "webapp", $sprite="app_engine")

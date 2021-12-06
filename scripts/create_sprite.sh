@@ -6,14 +6,13 @@ wd=$(pwd)
 set -eu
 
 gen_sprite_image() {
-  mkdir -p dist/$1
-  inkscape -w 48 -h 48 source/$1/$1.svg -o dist/$1/$1.png
-  convert dist/$1/$1.png -negate dist/$1/$1.png
+  inkscape -w 48 -h 48 source/$1/$1.svg -o dist/$1.png
+  convert dist/$1.png -negate dist/$1.png
 }
 export -f gen_sprite_image
 
 gen_sprite() {
-  java -jar $(which plantuml.jar) -encodesprite 16 dist/$1/$1.png >dist/$1/$1.puml
+  java -jar $(which plantuml.jar) -encodesprite 16 dist/$1.png >dist/$1.puml
 }
 export -f gen_sprite
 

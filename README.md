@@ -22,7 +22,7 @@ SystemDb(cloud_storage, "Cloud Storage", "storage", $sprite="cloud_storage")
 @enduml
 ```
 
-![image](https://user-images.githubusercontent.com/6662577/144869484-a4f741be-83ef-4b2b-8cf6-5f9aa52c2604.png)
+![image](https://user-images.githubusercontent.com/6662577/145069614-e2292b09-a7ca-474c-a35d-d00a8f5602a7.png)
 
 ## How to builds
 

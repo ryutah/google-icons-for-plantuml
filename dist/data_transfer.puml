@@ -1,3 +1,5 @@
+@startuml
+
 sprite $data_transfer [48x48/16] {
 000000000000000000000000000000000000000000000000
 000000000000000000000000000000000000000000000000
@@ -49,3 +51,12 @@ sprite $data_transfer [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
+
+
+!define DEV_DATA_TRANSFER(_alias) ENTITY(rectangle,black,android,_alias,DEV DATA_TRANSFER)
+!define DEV_DATA_TRANSFER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV DATA_TRANSFER)
+!define DEV_DATA_TRANSFER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV DATA_TRANSFER)
+!define DEV_DATA_TRANSFER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV DATA_TRANSFER)
+skinparam folderBackgroundColor<<DEV ANDROID>> White
+
+@enduml

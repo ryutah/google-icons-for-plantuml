@@ -1,3 +1,5 @@
+@startuml
+
 sprite $project [48x48/16] {
 000000000000000000000000000000000000000000000000
 000000012222222222210000000000000000000000000000
@@ -49,3 +51,12 @@ sprite $project [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
+
+
+!define DEV_PROJECT(_alias) ENTITY(rectangle,black,android,_alias,DEV PROJECT)
+!define DEV_PROJECT(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV PROJECT)
+!define DEV_PROJECT(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV PROJECT)
+!define DEV_PROJECT(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV PROJECT)
+skinparam folderBackgroundColor<<DEV ANDROID>> White
+
+@enduml

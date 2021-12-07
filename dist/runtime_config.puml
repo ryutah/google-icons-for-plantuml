@@ -1,3 +1,5 @@
+@startuml
+
 sprite $runtime_config [48x48/16] {
 000000000000000000000000000000000000000000000000
 000000000000000000000000000000000000000000000000
@@ -49,3 +51,12 @@ sprite $runtime_config [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
+
+
+!define DEV_RUNTIME_CONFIG(_alias) ENTITY(rectangle,black,android,_alias,DEV RUNTIME_CONFIG)
+!define DEV_RUNTIME_CONFIG(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV RUNTIME_CONFIG)
+!define DEV_RUNTIME_CONFIG(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV RUNTIME_CONFIG)
+!define DEV_RUNTIME_CONFIG(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV RUNTIME_CONFIG)
+skinparam folderBackgroundColor<<DEV ANDROID>> White
+
+@enduml

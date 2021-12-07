@@ -57,6 +57,6 @@ sprite $advanced_agent_modeling [48x48/16] {
 !define DEV_ADVANCED_AGENT_MODELING(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV ADVANCED_AGENT_MODELING)
 !define DEV_ADVANCED_AGENT_MODELING(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV ADVANCED_AGENT_MODELING)
 !define DEV_ADVANCED_AGENT_MODELING(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV ADVANCED_AGENT_MODELING)
-skinparam folderBackgroundColor<<DEV ANDROID>> White
+skinparam folderBackgroundColor<<DEV ADVANCED_AGENT_MODELING>> White
 
 @enduml

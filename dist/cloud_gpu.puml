@@ -57,6 +57,6 @@ sprite $cloud_gpu [48x48/16] {
 !define DEV_CLOUD_GPU(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_GPU)
 !define DEV_CLOUD_GPU(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_GPU)
 !define DEV_CLOUD_GPU(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_GPU)
-skinparam folderBackgroundColor<<DEV ANDROID>> White
+skinparam folderBackgroundColor<<DEV CLOUD_GPU>> White
 
 @enduml

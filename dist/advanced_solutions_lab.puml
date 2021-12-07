@@ -57,6 +57,6 @@ sprite $advanced_solutions_lab [48x48/16] {
 !define DEV_ADVANCED_SOLUTIONS_LAB(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV ADVANCED_SOLUTIONS_LAB)
 !define DEV_ADVANCED_SOLUTIONS_LAB(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV ADVANCED_SOLUTIONS_LAB)
 !define DEV_ADVANCED_SOLUTIONS_LAB(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV ADVANCED_SOLUTIONS_LAB)
-skinparam folderBackgroundColor<<DEV ANDROID>> White
+skinparam folderBackgroundColor<<DEV ADVANCED_SOLUTIONS_LAB>> White
 
 @enduml

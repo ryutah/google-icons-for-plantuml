@@ -57,6 +57,6 @@ sprite $dialogflow_cx [48x48/16] {
 !define DEV_DIALOGFLOW_CX(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV DIALOGFLOW_CX)
 !define DEV_DIALOGFLOW_CX(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV DIALOGFLOW_CX)
 !define DEV_DIALOGFLOW_CX(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV DIALOGFLOW_CX)
-skinparam folderBackgroundColor<<DEV ANDROID>> White
+skinparam folderBackgroundColor<<DEV DIALOGFLOW_CX>> White
 
 @enduml

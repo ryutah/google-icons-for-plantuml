@@ -57,6 +57,6 @@ sprite $private_connectivity [48x48/16] {
 !define DEV_PRIVATE_CONNECTIVITY(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV PRIVATE_CONNECTIVITY)
 !define DEV_PRIVATE_CONNECTIVITY(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV PRIVATE_CONNECTIVITY)
 !define DEV_PRIVATE_CONNECTIVITY(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV PRIVATE_CONNECTIVITY)
-skinparam folderBackgroundColor<<DEV ANDROID>> White
+skinparam folderBackgroundColor<<DEV PRIVATE_CONNECTIVITY>> White
 
 @enduml

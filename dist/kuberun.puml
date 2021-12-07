@@ -57,6 +57,6 @@ sprite $kuberun [48x48/16] {
 !define DEV_KUBERUN(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV KUBERUN)
 !define DEV_KUBERUN(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV KUBERUN)
 !define DEV_KUBERUN(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV KUBERUN)
-skinparam folderBackgroundColor<<DEV ANDROID>> White
+skinparam folderBackgroundColor<<DEV KUBERUN>> White
 
 @enduml

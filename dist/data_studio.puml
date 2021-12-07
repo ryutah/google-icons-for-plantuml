@@ -57,6 +57,6 @@ sprite $data_studio [48x48/16] {
 !define DEV_DATA_STUDIO(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV DATA_STUDIO)
 !define DEV_DATA_STUDIO(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV DATA_STUDIO)
 !define DEV_DATA_STUDIO(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV DATA_STUDIO)
-skinparam folderBackgroundColor<<DEV ANDROID>> White
+skinparam folderBackgroundColor<<DEV DATA_STUDIO>> White
 
 @enduml

@@ -57,6 +57,6 @@ sprite $os_patch_management [48x48/16] {
 !define DEV_OS_PATCH_MANAGEMENT(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV OS_PATCH_MANAGEMENT)
 !define DEV_OS_PATCH_MANAGEMENT(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV OS_PATCH_MANAGEMENT)
 !define DEV_OS_PATCH_MANAGEMENT(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV OS_PATCH_MANAGEMENT)
-skinparam folderBackgroundColor<<DEV ANDROID>> White
+skinparam folderBackgroundColor<<DEV OS_PATCH_MANAGEMENT>> White
 
 @enduml

@@ -57,6 +57,6 @@ sprite $datastream [48x48/16] {
 !define DEV_DATASTREAM(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV DATASTREAM)
 !define DEV_DATASTREAM(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV DATASTREAM)
 !define DEV_DATASTREAM(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV DATASTREAM)
-skinparam folderBackgroundColor<<DEV ANDROID>> White
+skinparam folderBackgroundColor<<DEV DATASTREAM>> White
 
 @enduml

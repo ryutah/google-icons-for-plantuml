@@ -57,6 +57,6 @@ sprite $virtual_private_cloud [48x48/16] {
 !define DEV_VIRTUAL_PRIVATE_CLOUD(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV VIRTUAL_PRIVATE_CLOUD)
 !define DEV_VIRTUAL_PRIVATE_CLOUD(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV VIRTUAL_PRIVATE_CLOUD)
 !define DEV_VIRTUAL_PRIVATE_CLOUD(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV VIRTUAL_PRIVATE_CLOUD)
-skinparam folderBackgroundColor<<DEV ANDROID>> White
+skinparam folderBackgroundColor<<DEV VIRTUAL_PRIVATE_CLOUD>> White
 
 @enduml

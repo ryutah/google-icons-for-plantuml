@@ -1,0 +1,28 @@
+# EditorConfig refs: https://EditorConfig.org
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+tab_width = 4
+
+# refs
+#   - https://github.com/editorconfig/editorconfig-core-go/blob/a82f420ac05062e83a7eee915157ff7ec5b58e96/.editorconfig
+#   - https://github.com/django/django/blob/aa4acc164d1247c0de515c959f7b09648b57dc42/.editorconfig
+[{Makefile,go.mod,go.sum,*.go}]
+indent_style = tab
+indent_size = 4
+
+# refs
+#  - https://github.com/rust-lang/rust-clippy/blob/e441b33ba00d897fff4479513210d41f988dfde3/.editorconfig
+#  - editorconfigkkkk
+[*.{rs,py,java}]
+indent_size = 4
+
+[*.md]
+trim_trailing_whitespace = false

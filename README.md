@@ -1,7 +1,6 @@
 # plantuml-icons-for-plantuml
 
 Google Cloud icon sprite for PlantUML
-Currently, only icons for c4 model are available.
 
 ## Example
 
@@ -30,10 +29,16 @@ SystemDb(cloud_storage, "Cloud Storage", "storage", $sprite="cloud_storage")
 ### Required tools
 
 1. [Inkscape](https://inkscape.org/)
-1. [ImageMagick](https://imagemagick.org/index.php)
 1. [PluntUML jar file](https://plantuml.com/ja/download)
+1. python 3.x
 
 ### Steps
+
+1. Install dependencies
+
+   ```console
+   pip install -r requirements.txt
+   ```
 
 1. Downloads icons
 

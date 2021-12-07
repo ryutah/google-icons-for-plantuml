@@ -11,7 +11,7 @@ gen_sprite_image() {
 export -f gen_sprite_image
 
 gen_sprite() {
-  java -jar $(which plantuml.jar) -encodesprite 16 dist/$1.png >dist/$1.puml
+  java -jar $(which plantuml.jar) -encodesprite 16 dist/$1.png | ./scripts/generate_puml.py $1 >dist/$1.puml
 }
 export -f gen_sprite
 

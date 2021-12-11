@@ -1,4 +1,4 @@
-# plantuml-icons-for-plantuml
+# google-icons-for-plantuml
 
 Google Cloud icon sprite for PlantUML.
 

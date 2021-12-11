@@ -12,7 +12,7 @@ Icons of this repository are able to use with [plantuml-stdlib/C4-PlantUML](http
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
-!define GICONURL https://raw.githubusercontent.com/ryutah/google-cloud-icons-for-plantuml/master/dist
+!define GICONURL https://raw.githubusercontent.com/ryutah/google-icons-for-plantuml/master/google-cloud
 !include GICONURL/cloud_run.puml
 !include GICONURL/app_engine.puml
 !include GICONURL/datastore.puml

@@ -24,6 +24,14 @@ Icons of this repository are able to use with [plantuml-stdlib/C4-PlantUML](http
 !include GWSICONURL/gmail.puml
 ```
 
+### import firebase sprite
+
+```plantuml
+!define FICONURL https://raw.githubusercontent.com/ryutah/google-icons-for-plantuml/master/firebase
+' include sprite that you want
+!include FICONURL/cloud_firestore.puml
+```
+
 If you want to use sprite macro like [tupadr3/plantuml-icon-font-sprites](https://github.com/tupadr3/plantuml-icon-font-sprites), you should import common.puml of tupadr3/plantuml-icon-font-sprites.
 
 ```plantuml

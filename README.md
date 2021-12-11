@@ -57,6 +57,7 @@ System(gmail, "Gmail", "gmail", $sprite="gmail")
 ### Required tools
 
 1. [Inkscape](https://inkscape.org/)
+1. [ImageMagick](https://imagemagick.org/index.php)
 1. [PluntUML jar file](https://plantuml.com/ja/download)
 1. python 3.x
 

@@ -1,10 +1,28 @@
 # google-icons-for-plantuml
 
-Google Cloud icon sprite for PlantUML.
+Google icon sprite for PlantUML.
 
 Inspired from [tupadr3/plantuml-icon-font-sprites](https://github.com/tupadr3/plantuml-icon-font-sprites).
 
 Icons of this repository are able to use with [plantuml-stdlib/C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML).
+
+## Getting Start
+
+### import google cloud sprite
+
+```plantuml
+!define GICONURL https://raw.githubusercontent.com/ryutah/google-icons-for-plantuml/master/google-cloud
+' include sprite that you want
+!include GICONURL/cloud_run.puml
+```
+
+### import google workspace sprite
+
+```plantuml
+!define GWSICONURL https://raw.githubusercontent.com/ryutah/google-icons-for-plantuml/master/google-workspace
+' include sprite that you want
+!include GWSICONURL/gmail.puml
+```
 
 ## Example
 
@@ -18,14 +36,21 @@ Icons of this repository are able to use with [plantuml-stdlib/C4-PlantUML](http
 !include GICONURL/datastore.puml
 !include GICONURL/cloud_storage.puml
 
+!define GWSICONURL https://raw.githubusercontent.com/ryutah/google-icons-for-plantuml/master/google-workspace
+!include GWSICONURL/calendar.puml
+!include GWSICONURL/gmail.puml
+
 System(cloud_run, "Cloud Run", "webapp", $sprite="cloud_run")
 System(app_engine, "App Engine", "webapp", $sprite="app_engine")
 SystemDb(datastore, "Datastore", "database", $sprite="datastore")
 SystemDb(cloud_storage, "Cloud Storage", "storage", $sprite="cloud_storage")
+
+System(calendar, "Calendar", "calendar", $sprite="calendar")
+System(gmail, "Gmail", "gmail", $sprite="gmail")
 @enduml
 ```
 
-![image](https://user-images.githubusercontent.com/6662577/145069614-e2292b09-a7ca-474c-a35d-d00a8f5602a7.png)
+![image](https://user-images.githubusercontent.com/6662577/145675028-3023c412-16cd-4437-9e3f-6ae55fb493fe.png)
 
 ## How to builds
 
@@ -43,14 +68,16 @@ SystemDb(cloud_storage, "Cloud Storage", "storage", $sprite="cloud_storage")
    pip install -r requirements.txt
    ```
 
-1. Downloads icons
+1. Build sprites
 
    ```console
-   ./scripts/download_gcp_icons.sh
+   make build
    ```
 
-1. Generate sprite
+### Builds Google Workspace icon
 
-   ```console
-   ./scripts/create_sprite.sh
-   ```
+#### Prerequired
+
+1. Downlaods icons from [here](https://support.google.com/a/answer/9212588?hl=ja)
+1. set environment variable `GOOGLE_WORKSPACE_ICON_ZIP_FILE_PATH` to location of download file path
+1. run `make build`

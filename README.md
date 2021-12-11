@@ -24,11 +24,25 @@ Icons of this repository are able to use with [plantuml-stdlib/C4-PlantUML](http
 !include GWSICONURL/gmail.puml
 ```
 
+If you want to use sprite macro like [tupadr3/plantuml-icon-font-sprites](https://github.com/tupadr3/plantuml-icon-font-sprites), you should import common.puml of tupadr3/plantuml-icon-font-sprites.
+
+```plantuml
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.4.0
+!includeurl ICONURL/common.puml
+
+' Then, include sprites
+!define GICONURL https://raw.githubusercontent.com/ryutah/google-icons-for-plantuml/master/google-cloud
+!include GICONURL/cloud_run.puml
+```
+
 ## Example
 
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.4.0
+!includeurl ICONURL/common.puml
 
 !define GICONURL https://raw.githubusercontent.com/ryutah/google-icons-for-plantuml/master/google-cloud
 !include GICONURL/cloud_run.puml
@@ -47,10 +61,12 @@ SystemDb(cloud_storage, "Cloud Storage", "storage", $sprite="cloud_storage")
 
 System(calendar, "Calendar", "calendar", $sprite="calendar")
 System(gmail, "Gmail", "gmail", $sprite="gmail")
+
+DEV_CLOUD_RUN(cloud_run2)
 @enduml
 ```
 
-![image](https://user-images.githubusercontent.com/6662577/145675028-3023c412-16cd-4437-9e3f-6ae55fb493fe.png)
+![image](https://user-images.githubusercontent.com/6662577/145675866-9bc3dec2-bf38-4e49-a26e-eb7841f4dbf3.png)
 
 ## How to builds
 

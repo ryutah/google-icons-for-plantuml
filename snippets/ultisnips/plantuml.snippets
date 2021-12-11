@@ -1,0 +1,281 @@
+snippet C4_Include_Deployment "Include C4 Deployment Diagram" b
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
+endsnippet
+
+snippet C4_SystemQueue_Ext "Add External Queue System to C4 diagram" b
+SystemQueue_Ext(${1:alias}, "${2:label}")
+endsnippet
+
+snippet C4_SystemQueue_Ext_Descr "Add External Queue System with Description to C4 diagram" b
+SystemQueue_Ext(${1:alias}, "${2:label}", "${3:description}")
+endsnippet
+
+snippet C4_Boundary "Add a generic boundary to C4 diagram." b
+Boundary(${1:alias}, "${2:label}"){
+	$0
+}
+endsnippet
+
+snippet C4_Dynamic_Set_Index "Set index of C4 Dynamic Diagram" b
+setIndex(${1:value})
+endsnippet
+
+snippet C4_Container_Boundary "Add a Container Boundary to C4 diagram" b
+Container_Boundary(${1:alias}, "${2:label}"){
+	$0
+}
+endsnippet
+
+snippet C4_System_Ext "Add External System to C4 diagram" b
+System_Ext(${1:alias}, "${2:label}")
+endsnippet
+
+snippet C4_SystemDb "Add Database System to C4 diagram" b
+SystemDb(${1:alias}, "${2:label}")
+endsnippet
+
+snippet C4_SystemDb_Descr "Add Database System with Description to C4 diagram" b
+SystemDb(${1:alias}, "${2:label}", "${3:description}")
+endsnippet
+
+snippet C4_Deployment_Node_Type "Add a deployment node to C4 diagram." b
+Deployment_Node(${1:alias}, "${2:label}", "${3:type}"){
+	$0
+}
+endsnippet
+
+snippet C4_Dynamic_Increment "Increment index of C4 Dynamic Diagram." b
+increment(${1:count})
+endsnippet
+
+snippet C4_Person "Add Person to C4 diagram" b
+Person(${1:alias}, "${2:label}")
+endsnippet
+
+snippet C4_SystemQueue_Descr "Add Queue System with Description to C4 diagram" b
+SystemQueue(${1:alias}, "${2:label}", "${3:description}")
+endsnippet
+
+snippet C4_Boundary_Type "Add a generic boundary to C4 diagram." b
+Boundary(${1:alias}, "${2:label}", "${3:type}"){
+	$0
+}
+endsnippet
+
+snippet C4_Include_Component "Include C4 Component Diagram" b
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+endsnippet
+
+snippet C4_Person_Descr "Add Person with Description to C4 diagram" b
+Person(${1:alias}, "${2:label}", "${3:description}")
+endsnippet
+
+snippet C4_SystemDb_Ext_Descr "Add External Database System with Description to C4 diagram" b
+SystemDb_Ext(${1:alias}, "${2:label}", "${3:description}")
+endsnippet
+
+snippet C4_Layout_Right "Add hidden layout line to put {to} to the right of {from}" b
+Lay_R(${1:from_alias}, ${2:to_alias})
+endsnippet
+
+snippet C4_Container_Ext_Descr "Add External Container with Description to C4 diagram" b
+Container_Ext(${1:alias}, "${2:label}", "${3:technology}", "${4:description}")
+endsnippet
+
+snippet C4_Relationship_Bi "Add bidirectional Relationship to C4 diagram" b
+BiRel(${1:from_alias}, ${2:to_alias}, "${3:label}")
+endsnippet
+
+snippet C4_Relationship_Bi_Techn "Add bidirectional Relationship with Technology to C4 diagram" b
+BiRel(${1:from_alias}, ${2:to_alias}, "${3:label}", "${4:technology}")
+endsnippet
+
+snippet C4_Container_Ext "Add External Container to C4 diagram" b
+Container_Ext(${1:alias}, "${2:label}", "${3:technology}")
+endsnippet
+
+snippet C4_Component_Ext "Add External Component to C4 diagram" b
+Component_Ext(${1:alias}, "${2:label}", "${3:technology}")
+endsnippet
+
+snippet C4_System "Add System to C4 diagram" b
+System(${1:alias}, "${2:label}")
+endsnippet
+
+snippet C4_ContainerQueue_Descr "Add Queue Container with Description to C4 diagram" b
+ContainerQueue(${1:alias}, "${2:label}", "${3:technology}", "${4:description}")
+endsnippet
+
+snippet C4_ContainerQueue_Ext_Descr "Add ExternalQueue Container with Description to C4 diagram" b
+ContainerQueue_Ext(${1:alias}, "${2:label}", "${3:technology}", "${4:description}")
+endsnippet
+
+snippet C4_Layout_With_Legend "Add legend to C4 diagram." b
+LAYOUT_WITH_LEGEND()
+endsnippet
+
+snippet C4_ContainerQueue_Ext "Add External Queue Container to C4 diagram" b
+ContainerQueue_Ext(${1:alias}, "${2:label}", "${3:technology}")
+endsnippet
+
+snippet C4_Deployment_Node "Add a deployment node to C4 diagram." b
+Deployment_Node(${1:alias}, "${2:label}"){
+	$0
+}
+endsnippet
+
+snippet C4_Hide_Stereotype "Hide stereotypes from C4 diagram.." b
+HIDE_STEREOTYPE()
+endsnippet
+
+snippet C4_ComponentDb_Descr "Add Database Component with Description to C4 diagram" b
+ComponentDb(${1:alias}, "${2:label}", "${3:technology}", "${4:description}")
+endsnippet
+
+snippet C4_Person_Ext "Add External Person to C4 diagram" b
+Person_Ext(${1:alias}, "${2:label}")
+endsnippet
+
+snippet C4_Person_Ext_Descr "Add External Person with Description to C4 diagram" b
+Person_Ext(${1:alias}, "${2:label}", "${3:description}")
+endsnippet
+
+snippet C4_Container_Descr "Add Container with Description to C4 diagram" b
+Container(${1:alias}, "${2:label}", "${3:technology}", "${4:description}")
+endsnippet
+
+snippet C4_System_Ext_Descr "Add External System with Description to C4 diagram" b
+System_Ext(${1:alias}, "${2:label}", "${3:description}")
+endsnippet
+
+snippet C4_SystemDb_Ext "Add External Database System to C4 diagram" b
+SystemDb_Ext(${1:alias}, "${2:label}")
+endsnippet
+
+snippet C4_SystemQueue "Add Queue System to C4 diagram" b
+SystemQueue(${1:alias}, "${2:label}")
+endsnippet
+
+snippet C4_Include_Container "Include C4 Container Diagram" b
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+endsnippet
+
+snippet C4_Component "Add Component to C4 diagram" b
+Component(${1:alias}, "${2:label}", "${3:technology}")
+endsnippet
+
+snippet C4_ComponentQueue_Descr "Add Queue Component with Description to C4 diagram" b
+ComponentQueue(${1:alias}, "${2:label}", "${3:technology}", "${4:description}")
+endsnippet
+
+snippet C4_Include_Dynamic "Include C4 Dynamic Diagram" b
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Dynamic.puml
+endsnippet
+
+snippet C4_ContainerDb_Descr "Add Database Container with Description to C4 diagram" b
+ContainerDb(${1:alias}, "${2:label}", "${3:technology}", "${4:description}")
+endsnippet
+
+snippet C4_ComponentQueue_Ext_Descr "Add External Queue Component with Description to C4 diagram" b
+ComponentQueue_Ext(${1:alias}, "${2:label}", "${3:technology}", "${4:description}")
+endsnippet
+
+snippet C4_System_Boundary "Add a System Boundary to C4 diagram" b
+System_Boundary(${1:alias}, "${2:label}"){
+	$0
+}
+endsnippet
+
+snippet C4_Enterprise_Boundary "Add an Enterprise Boundary to C4 diagram" b
+Enterprise_Boundary(${1:alias}, "${2:label}"){
+	$0
+}
+endsnippet
+
+snippet C4_ContainerDb_Ext "Add External Database Container to C4 diagram" b
+ContainerDb_Ext(${1:alias}, "${2:label}", "${3:technology}")
+endsnippet
+
+snippet C4_ComponentDb "Add Database Component to C4 diagram" b
+ComponentDb(${1:alias}, "${2:label}", "${3:technology}")
+endsnippet
+
+snippet C4_System_Descr "Add System with Description to C4 diagram" b
+System(${1:alias}, "${2:label}", "${3:description}")
+endsnippet
+
+snippet C4_Layout_Top_Down "Top down layout for C4 diagram." b
+LAYOUT_TOP_DOWN()
+endsnippet
+
+snippet C4_Include_Context "Include C4 Context Diagram" b
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+endsnippet
+
+snippet C4_ContainerDb "Add Database Container to C4 diagram" b
+ContainerDb(${1:alias}, "${2:label}", "${3:technology}")
+endsnippet
+
+snippet C4_ContainerQueue "Add Queue Container to C4 diagram" b
+ContainerQueue(${1:alias}, "${2:label}", "${3:technology}")
+endsnippet
+
+snippet C4_ComponentDb_Ext_Descr "Add External Database Component with Description to C4 diagram" b
+ComponentDb_Ext(${1:alias}, "${2:label}", "${3:technology}", "${4:description}")
+endsnippet
+
+snippet C4_Relationship_Techn "Add unidirectional Relationship with Technology to C4 diagram" b
+Rel(${1:from_alias}, ${2:to_alias}, "${3:label}", "${4:technology}")
+endsnippet
+
+snippet C4_Relationship_Index_Techn "Add unidirectional Relationship with Technology to C4 Dynamic Diagram" b
+RelIndex(${1:index}, ${2:from_alias}, ${3:to_alias}, "${4:label}", "${5:technology}")
+endsnippet
+
+snippet C4_Layout_Left_Right "Left to right layout for C4 diagram." b
+LAYOUT_LEFT_RIGHT()
+endsnippet
+
+snippet C4_Component_Descr "Add Component with Description to C4 diagram" b
+Component(${1:alias}, "${2:label}", "${3:technology}", "${4:description}")
+endsnippet
+
+snippet C4_ComponentQueue "Add Queue Component to C4 diagram" b
+ComponentQueue(${1:alias}, "${2:label}", "${3:technology}")
+endsnippet
+
+snippet C4_ComponentQueue_Ext "Add External Queue Component to C4 diagram" b
+ComponentQueue_Ext(${1:alias}, "${2:label}", "${3:technology}")
+endsnippet
+
+snippet C4_Relationship "Add unidirectional Relationship to C4 diagram" b
+Rel(${1:from_alias}, ${2:to_alias}, "${3:label}")
+endsnippet
+
+snippet C4_Layout_Left "Add hidden layout line to put {to} to the left of {from}" b
+Lay_L(${1:from_alias}, ${2:to_alias})
+endsnippet
+
+snippet C4_Container "Add Container to C4 diagram" b
+Container(${1:alias}, "${2:label}", "${3:technology}")
+endsnippet
+
+snippet C4_ContainerDb_Ext_Descr "Add External Database Container with Description to C4 diagram" b
+ContainerDb_Ext(${1:alias}, "${2:label}", "${3:technology}", "${4:description}")
+endsnippet
+
+snippet C4_Component_Ext_Descr "Add External Component with Description to C4 diagram" b
+Component_Ext(${1:alias}, "${2:label}", "${3:technology}", "${4:description}")
+endsnippet
+
+snippet C4_ComponentDb_Ext "Add External Database Component to C4 diagram" b
+ComponentDb_Ext(${1:alias}, "${2:label}", "${3:technology}")
+endsnippet
+
+snippet C4_Relationship_Index "Add unidirectional Relationship to C4 Dynamic Diagram" b
+RelIndex(${1:index}, ${2:from_alias}, ${3:to_alias}, "${4:label}")
+endsnippet
+
+snippet C4_Layout_As_Sketch "Sketch layout for C4 diagram." b
+LAYOUT_AS_SKETCH()
+endsnippet

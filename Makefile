@@ -6,3 +6,7 @@ help: ## Prints help for targets with comments
 build: ## build sprites
 	./scripts/download_gcp_icons.sh
 	./scripts/create_sprite.sh
+
+.PHONY: generate/snippets
+generate/snippets: ## generate snippets file
+	cd ./tools/snippets-generator && go run . > ${PWD}/snippets/ultisnips/plantuml.snippets

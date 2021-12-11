@@ -24,7 +24,7 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Println(strings.Join(results, "\r\n\r\n"))
+	fmt.Println(strings.Join(results, "\n\n"))
 }
 
 var snippetTemplate = strings.TrimSpace(`

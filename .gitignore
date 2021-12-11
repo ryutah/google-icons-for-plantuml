@@ -252,3 +252,4 @@ dmypy.json
 cython_debug/
 
 .envrc
+.tmp/

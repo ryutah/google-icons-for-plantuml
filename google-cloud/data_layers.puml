@@ -53,10 +53,10 @@ sprite $data_layers [48x48/16] {
 
 
 
-!define DEV_DATA_LAYERS(_alias) ENTITY(rectangle,black,android,_alias,DEV DATA_LAYERS)
-!define DEV_DATA_LAYERS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV DATA_LAYERS)
-!define DEV_DATA_LAYERS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV DATA_LAYERS)
-!define DEV_DATA_LAYERS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV DATA_LAYERS)
+!define DEV_DATA_LAYERS(_alias) ENTITY(rectangle,black,data_layers,_alias,DEV DATA_LAYERS)
+!define DEV_DATA_LAYERS(_alias, _label) ENTITY(rectangle,black,data_layers,_label, _alias,DEV DATA_LAYERS)
+!define DEV_DATA_LAYERS(_alias, _label, _shape) ENTITY(_shape,black,data_layers,_label, _alias,DEV DATA_LAYERS)
+!define DEV_DATA_LAYERS(_alias, _label, _shape, _color) ENTITY(_shape,_color,data_layers,_label, _alias,DEV DATA_LAYERS)
 skinparam folderBackgroundColor<<DEV DATA_LAYERS>> White
 
 @enduml

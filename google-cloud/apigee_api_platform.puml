@@ -53,10 +53,10 @@ sprite $apigee_api_platform [48x48/16] {
 
 
 
-!define DEV_APIGEE_API_PLATFORM(_alias) ENTITY(rectangle,black,android,_alias,DEV APIGEE_API_PLATFORM)
-!define DEV_APIGEE_API_PLATFORM(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV APIGEE_API_PLATFORM)
-!define DEV_APIGEE_API_PLATFORM(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV APIGEE_API_PLATFORM)
-!define DEV_APIGEE_API_PLATFORM(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV APIGEE_API_PLATFORM)
+!define DEV_APIGEE_API_PLATFORM(_alias) ENTITY(rectangle,black,apigee_api_platform,_alias,DEV APIGEE_API_PLATFORM)
+!define DEV_APIGEE_API_PLATFORM(_alias, _label) ENTITY(rectangle,black,apigee_api_platform,_label, _alias,DEV APIGEE_API_PLATFORM)
+!define DEV_APIGEE_API_PLATFORM(_alias, _label, _shape) ENTITY(_shape,black,apigee_api_platform,_label, _alias,DEV APIGEE_API_PLATFORM)
+!define DEV_APIGEE_API_PLATFORM(_alias, _label, _shape, _color) ENTITY(_shape,_color,apigee_api_platform,_label, _alias,DEV APIGEE_API_PLATFORM)
 skinparam folderBackgroundColor<<DEV APIGEE_API_PLATFORM>> White
 
 @enduml

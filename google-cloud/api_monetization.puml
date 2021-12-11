@@ -53,10 +53,10 @@ sprite $api_monetization [48x48/16] {
 
 
 
-!define DEV_API_MONETIZATION(_alias) ENTITY(rectangle,black,android,_alias,DEV API_MONETIZATION)
-!define DEV_API_MONETIZATION(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV API_MONETIZATION)
-!define DEV_API_MONETIZATION(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV API_MONETIZATION)
-!define DEV_API_MONETIZATION(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV API_MONETIZATION)
+!define DEV_API_MONETIZATION(_alias) ENTITY(rectangle,black,api_monetization,_alias,DEV API_MONETIZATION)
+!define DEV_API_MONETIZATION(_alias, _label) ENTITY(rectangle,black,api_monetization,_label, _alias,DEV API_MONETIZATION)
+!define DEV_API_MONETIZATION(_alias, _label, _shape) ENTITY(_shape,black,api_monetization,_label, _alias,DEV API_MONETIZATION)
+!define DEV_API_MONETIZATION(_alias, _label, _shape, _color) ENTITY(_shape,_color,api_monetization,_label, _alias,DEV API_MONETIZATION)
 skinparam folderBackgroundColor<<DEV API_MONETIZATION>> White
 
 @enduml

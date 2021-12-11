@@ -53,10 +53,10 @@ sprite $apigee_sense [48x48/16] {
 
 
 
-!define DEV_APIGEE_SENSE(_alias) ENTITY(rectangle,black,android,_alias,DEV APIGEE_SENSE)
-!define DEV_APIGEE_SENSE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV APIGEE_SENSE)
-!define DEV_APIGEE_SENSE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV APIGEE_SENSE)
-!define DEV_APIGEE_SENSE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV APIGEE_SENSE)
+!define DEV_APIGEE_SENSE(_alias) ENTITY(rectangle,black,apigee_sense,_alias,DEV APIGEE_SENSE)
+!define DEV_APIGEE_SENSE(_alias, _label) ENTITY(rectangle,black,apigee_sense,_label, _alias,DEV APIGEE_SENSE)
+!define DEV_APIGEE_SENSE(_alias, _label, _shape) ENTITY(_shape,black,apigee_sense,_label, _alias,DEV APIGEE_SENSE)
+!define DEV_APIGEE_SENSE(_alias, _label, _shape, _color) ENTITY(_shape,_color,apigee_sense,_label, _alias,DEV APIGEE_SENSE)
 skinparam folderBackgroundColor<<DEV APIGEE_SENSE>> White
 
 @enduml

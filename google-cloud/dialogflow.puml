@@ -53,10 +53,10 @@ sprite $dialogflow [48x48/16] {
 
 
 
-!define DEV_DIALOGFLOW(_alias) ENTITY(rectangle,black,android,_alias,DEV DIALOGFLOW)
-!define DEV_DIALOGFLOW(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV DIALOGFLOW)
-!define DEV_DIALOGFLOW(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV DIALOGFLOW)
-!define DEV_DIALOGFLOW(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV DIALOGFLOW)
+!define DEV_DIALOGFLOW(_alias) ENTITY(rectangle,black,dialogflow,_alias,DEV DIALOGFLOW)
+!define DEV_DIALOGFLOW(_alias, _label) ENTITY(rectangle,black,dialogflow,_label, _alias,DEV DIALOGFLOW)
+!define DEV_DIALOGFLOW(_alias, _label, _shape) ENTITY(_shape,black,dialogflow,_label, _alias,DEV DIALOGFLOW)
+!define DEV_DIALOGFLOW(_alias, _label, _shape, _color) ENTITY(_shape,_color,dialogflow,_label, _alias,DEV DIALOGFLOW)
 skinparam folderBackgroundColor<<DEV DIALOGFLOW>> White
 
 @enduml

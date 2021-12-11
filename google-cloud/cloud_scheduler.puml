@@ -53,10 +53,10 @@ sprite $cloud_scheduler [48x48/16] {
 
 
 
-!define DEV_CLOUD_SCHEDULER(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_SCHEDULER)
-!define DEV_CLOUD_SCHEDULER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_SCHEDULER)
-!define DEV_CLOUD_SCHEDULER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_SCHEDULER)
-!define DEV_CLOUD_SCHEDULER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_SCHEDULER)
+!define DEV_CLOUD_SCHEDULER(_alias) ENTITY(rectangle,black,cloud_scheduler,_alias,DEV CLOUD_SCHEDULER)
+!define DEV_CLOUD_SCHEDULER(_alias, _label) ENTITY(rectangle,black,cloud_scheduler,_label, _alias,DEV CLOUD_SCHEDULER)
+!define DEV_CLOUD_SCHEDULER(_alias, _label, _shape) ENTITY(_shape,black,cloud_scheduler,_label, _alias,DEV CLOUD_SCHEDULER)
+!define DEV_CLOUD_SCHEDULER(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_scheduler,_label, _alias,DEV CLOUD_SCHEDULER)
 skinparam folderBackgroundColor<<DEV CLOUD_SCHEDULER>> White
 
 @enduml

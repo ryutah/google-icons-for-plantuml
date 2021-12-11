@@ -53,10 +53,10 @@ sprite $identity_platform [48x48/16] {
 
 
 
-!define DEV_IDENTITY_PLATFORM(_alias) ENTITY(rectangle,black,android,_alias,DEV IDENTITY_PLATFORM)
-!define DEV_IDENTITY_PLATFORM(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV IDENTITY_PLATFORM)
-!define DEV_IDENTITY_PLATFORM(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV IDENTITY_PLATFORM)
-!define DEV_IDENTITY_PLATFORM(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV IDENTITY_PLATFORM)
+!define DEV_IDENTITY_PLATFORM(_alias) ENTITY(rectangle,black,identity_platform,_alias,DEV IDENTITY_PLATFORM)
+!define DEV_IDENTITY_PLATFORM(_alias, _label) ENTITY(rectangle,black,identity_platform,_label, _alias,DEV IDENTITY_PLATFORM)
+!define DEV_IDENTITY_PLATFORM(_alias, _label, _shape) ENTITY(_shape,black,identity_platform,_label, _alias,DEV IDENTITY_PLATFORM)
+!define DEV_IDENTITY_PLATFORM(_alias, _label, _shape, _color) ENTITY(_shape,_color,identity_platform,_label, _alias,DEV IDENTITY_PLATFORM)
 skinparam folderBackgroundColor<<DEV IDENTITY_PLATFORM>> White
 
 @enduml

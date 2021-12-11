@@ -53,10 +53,10 @@ sprite $transfer_appliance [48x48/16] {
 
 
 
-!define DEV_TRANSFER_APPLIANCE(_alias) ENTITY(rectangle,black,android,_alias,DEV TRANSFER_APPLIANCE)
-!define DEV_TRANSFER_APPLIANCE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV TRANSFER_APPLIANCE)
-!define DEV_TRANSFER_APPLIANCE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV TRANSFER_APPLIANCE)
-!define DEV_TRANSFER_APPLIANCE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV TRANSFER_APPLIANCE)
+!define DEV_TRANSFER_APPLIANCE(_alias) ENTITY(rectangle,black,transfer_appliance,_alias,DEV TRANSFER_APPLIANCE)
+!define DEV_TRANSFER_APPLIANCE(_alias, _label) ENTITY(rectangle,black,transfer_appliance,_label, _alias,DEV TRANSFER_APPLIANCE)
+!define DEV_TRANSFER_APPLIANCE(_alias, _label, _shape) ENTITY(_shape,black,transfer_appliance,_label, _alias,DEV TRANSFER_APPLIANCE)
+!define DEV_TRANSFER_APPLIANCE(_alias, _label, _shape, _color) ENTITY(_shape,_color,transfer_appliance,_label, _alias,DEV TRANSFER_APPLIANCE)
 skinparam folderBackgroundColor<<DEV TRANSFER_APPLIANCE>> White
 
 @enduml

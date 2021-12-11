@@ -53,10 +53,10 @@ sprite $container_optimized_os [48x48/16] {
 
 
 
-!define DEV_CONTAINER_OPTIMIZED_OS(_alias) ENTITY(rectangle,black,android,_alias,DEV CONTAINER_OPTIMIZED_OS)
-!define DEV_CONTAINER_OPTIMIZED_OS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CONTAINER_OPTIMIZED_OS)
-!define DEV_CONTAINER_OPTIMIZED_OS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CONTAINER_OPTIMIZED_OS)
-!define DEV_CONTAINER_OPTIMIZED_OS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CONTAINER_OPTIMIZED_OS)
+!define DEV_CONTAINER_OPTIMIZED_OS(_alias) ENTITY(rectangle,black,container_optimized_os,_alias,DEV CONTAINER_OPTIMIZED_OS)
+!define DEV_CONTAINER_OPTIMIZED_OS(_alias, _label) ENTITY(rectangle,black,container_optimized_os,_label, _alias,DEV CONTAINER_OPTIMIZED_OS)
+!define DEV_CONTAINER_OPTIMIZED_OS(_alias, _label, _shape) ENTITY(_shape,black,container_optimized_os,_label, _alias,DEV CONTAINER_OPTIMIZED_OS)
+!define DEV_CONTAINER_OPTIMIZED_OS(_alias, _label, _shape, _color) ENTITY(_shape,_color,container_optimized_os,_label, _alias,DEV CONTAINER_OPTIMIZED_OS)
 skinparam folderBackgroundColor<<DEV CONTAINER_OPTIMIZED_OS>> White
 
 @enduml

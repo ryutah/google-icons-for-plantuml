@@ -53,10 +53,10 @@ sprite $visual_inspection [48x48/16] {
 
 
 
-!define DEV_VISUAL_INSPECTION(_alias) ENTITY(rectangle,black,android,_alias,DEV VISUAL_INSPECTION)
-!define DEV_VISUAL_INSPECTION(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV VISUAL_INSPECTION)
-!define DEV_VISUAL_INSPECTION(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV VISUAL_INSPECTION)
-!define DEV_VISUAL_INSPECTION(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV VISUAL_INSPECTION)
+!define DEV_VISUAL_INSPECTION(_alias) ENTITY(rectangle,black,visual_inspection,_alias,DEV VISUAL_INSPECTION)
+!define DEV_VISUAL_INSPECTION(_alias, _label) ENTITY(rectangle,black,visual_inspection,_label, _alias,DEV VISUAL_INSPECTION)
+!define DEV_VISUAL_INSPECTION(_alias, _label, _shape) ENTITY(_shape,black,visual_inspection,_label, _alias,DEV VISUAL_INSPECTION)
+!define DEV_VISUAL_INSPECTION(_alias, _label, _shape, _color) ENTITY(_shape,_color,visual_inspection,_label, _alias,DEV VISUAL_INSPECTION)
 skinparam folderBackgroundColor<<DEV VISUAL_INSPECTION>> White
 
 @enduml

@@ -53,10 +53,10 @@ sprite $risk_manager [48x48/16] {
 
 
 
-!define DEV_RISK_MANAGER(_alias) ENTITY(rectangle,black,android,_alias,DEV RISK_MANAGER)
-!define DEV_RISK_MANAGER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV RISK_MANAGER)
-!define DEV_RISK_MANAGER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV RISK_MANAGER)
-!define DEV_RISK_MANAGER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV RISK_MANAGER)
+!define DEV_RISK_MANAGER(_alias) ENTITY(rectangle,black,risk_manager,_alias,DEV RISK_MANAGER)
+!define DEV_RISK_MANAGER(_alias, _label) ENTITY(rectangle,black,risk_manager,_label, _alias,DEV RISK_MANAGER)
+!define DEV_RISK_MANAGER(_alias, _label, _shape) ENTITY(_shape,black,risk_manager,_label, _alias,DEV RISK_MANAGER)
+!define DEV_RISK_MANAGER(_alias, _label, _shape, _color) ENTITY(_shape,_color,risk_manager,_label, _alias,DEV RISK_MANAGER)
 skinparam folderBackgroundColor<<DEV RISK_MANAGER>> White
 
 @enduml

@@ -53,10 +53,10 @@ sprite $automl_video_intelligence [48x48/16] {
 
 
 
-!define DEV_AUTOML_VIDEO_INTELLIGENCE(_alias) ENTITY(rectangle,black,android,_alias,DEV AUTOML_VIDEO_INTELLIGENCE)
-!define DEV_AUTOML_VIDEO_INTELLIGENCE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV AUTOML_VIDEO_INTELLIGENCE)
-!define DEV_AUTOML_VIDEO_INTELLIGENCE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV AUTOML_VIDEO_INTELLIGENCE)
-!define DEV_AUTOML_VIDEO_INTELLIGENCE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV AUTOML_VIDEO_INTELLIGENCE)
+!define DEV_AUTOML_VIDEO_INTELLIGENCE(_alias) ENTITY(rectangle,black,automl_video_intelligence,_alias,DEV AUTOML_VIDEO_INTELLIGENCE)
+!define DEV_AUTOML_VIDEO_INTELLIGENCE(_alias, _label) ENTITY(rectangle,black,automl_video_intelligence,_label, _alias,DEV AUTOML_VIDEO_INTELLIGENCE)
+!define DEV_AUTOML_VIDEO_INTELLIGENCE(_alias, _label, _shape) ENTITY(_shape,black,automl_video_intelligence,_label, _alias,DEV AUTOML_VIDEO_INTELLIGENCE)
+!define DEV_AUTOML_VIDEO_INTELLIGENCE(_alias, _label, _shape, _color) ENTITY(_shape,_color,automl_video_intelligence,_label, _alias,DEV AUTOML_VIDEO_INTELLIGENCE)
 skinparam folderBackgroundColor<<DEV AUTOML_VIDEO_INTELLIGENCE>> White
 
 @enduml

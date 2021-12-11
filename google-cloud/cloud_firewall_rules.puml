@@ -53,10 +53,10 @@ sprite $cloud_firewall_rules [48x48/16] {
 
 
 
-!define DEV_CLOUD_FIREWALL_RULES(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_FIREWALL_RULES)
-!define DEV_CLOUD_FIREWALL_RULES(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_FIREWALL_RULES)
-!define DEV_CLOUD_FIREWALL_RULES(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_FIREWALL_RULES)
-!define DEV_CLOUD_FIREWALL_RULES(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_FIREWALL_RULES)
+!define DEV_CLOUD_FIREWALL_RULES(_alias) ENTITY(rectangle,black,cloud_firewall_rules,_alias,DEV CLOUD_FIREWALL_RULES)
+!define DEV_CLOUD_FIREWALL_RULES(_alias, _label) ENTITY(rectangle,black,cloud_firewall_rules,_label, _alias,DEV CLOUD_FIREWALL_RULES)
+!define DEV_CLOUD_FIREWALL_RULES(_alias, _label, _shape) ENTITY(_shape,black,cloud_firewall_rules,_label, _alias,DEV CLOUD_FIREWALL_RULES)
+!define DEV_CLOUD_FIREWALL_RULES(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_firewall_rules,_label, _alias,DEV CLOUD_FIREWALL_RULES)
 skinparam folderBackgroundColor<<DEV CLOUD_FIREWALL_RULES>> White
 
 @enduml

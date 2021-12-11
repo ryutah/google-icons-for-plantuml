@@ -53,10 +53,10 @@ sprite $real [48x48/16] {
 
 
 
-!define DEV_REAL-WORLD_INSIGHTS(_alias) ENTITY(rectangle,black,android,_alias,DEV REAL-WORLD_INSIGHTS)
-!define DEV_REAL-WORLD_INSIGHTS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV REAL-WORLD_INSIGHTS)
-!define DEV_REAL-WORLD_INSIGHTS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV REAL-WORLD_INSIGHTS)
-!define DEV_REAL-WORLD_INSIGHTS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV REAL-WORLD_INSIGHTS)
+!define DEV_REAL-WORLD_INSIGHTS(_alias) ENTITY(rectangle,black,real-world_insights,_alias,DEV REAL-WORLD_INSIGHTS)
+!define DEV_REAL-WORLD_INSIGHTS(_alias, _label) ENTITY(rectangle,black,real-world_insights,_label, _alias,DEV REAL-WORLD_INSIGHTS)
+!define DEV_REAL-WORLD_INSIGHTS(_alias, _label, _shape) ENTITY(_shape,black,real-world_insights,_label, _alias,DEV REAL-WORLD_INSIGHTS)
+!define DEV_REAL-WORLD_INSIGHTS(_alias, _label, _shape, _color) ENTITY(_shape,_color,real-world_insights,_label, _alias,DEV REAL-WORLD_INSIGHTS)
 skinparam folderBackgroundColor<<DEV REAL-WORLD_INSIGHTS>> White
 
 @enduml

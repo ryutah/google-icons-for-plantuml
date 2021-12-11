@@ -53,10 +53,10 @@ sprite $persistent_disk [48x48/16] {
 
 
 
-!define DEV_PERSISTENT_DISK(_alias) ENTITY(rectangle,black,android,_alias,DEV PERSISTENT_DISK)
-!define DEV_PERSISTENT_DISK(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV PERSISTENT_DISK)
-!define DEV_PERSISTENT_DISK(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV PERSISTENT_DISK)
-!define DEV_PERSISTENT_DISK(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV PERSISTENT_DISK)
+!define DEV_PERSISTENT_DISK(_alias) ENTITY(rectangle,black,persistent_disk,_alias,DEV PERSISTENT_DISK)
+!define DEV_PERSISTENT_DISK(_alias, _label) ENTITY(rectangle,black,persistent_disk,_label, _alias,DEV PERSISTENT_DISK)
+!define DEV_PERSISTENT_DISK(_alias, _label, _shape) ENTITY(_shape,black,persistent_disk,_label, _alias,DEV PERSISTENT_DISK)
+!define DEV_PERSISTENT_DISK(_alias, _label, _shape, _color) ENTITY(_shape,_color,persistent_disk,_label, _alias,DEV PERSISTENT_DISK)
 skinparam folderBackgroundColor<<DEV PERSISTENT_DISK>> White
 
 @enduml

@@ -53,10 +53,10 @@ sprite $google_kubernetes_engine [48x48/16] {
 
 
 
-!define DEV_GOOGLE_KUBERNETES_ENGINE(_alias) ENTITY(rectangle,black,android,_alias,DEV GOOGLE_KUBERNETES_ENGINE)
-!define DEV_GOOGLE_KUBERNETES_ENGINE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV GOOGLE_KUBERNETES_ENGINE)
-!define DEV_GOOGLE_KUBERNETES_ENGINE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV GOOGLE_KUBERNETES_ENGINE)
-!define DEV_GOOGLE_KUBERNETES_ENGINE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV GOOGLE_KUBERNETES_ENGINE)
+!define DEV_GOOGLE_KUBERNETES_ENGINE(_alias) ENTITY(rectangle,black,google_kubernetes_engine,_alias,DEV GOOGLE_KUBERNETES_ENGINE)
+!define DEV_GOOGLE_KUBERNETES_ENGINE(_alias, _label) ENTITY(rectangle,black,google_kubernetes_engine,_label, _alias,DEV GOOGLE_KUBERNETES_ENGINE)
+!define DEV_GOOGLE_KUBERNETES_ENGINE(_alias, _label, _shape) ENTITY(_shape,black,google_kubernetes_engine,_label, _alias,DEV GOOGLE_KUBERNETES_ENGINE)
+!define DEV_GOOGLE_KUBERNETES_ENGINE(_alias, _label, _shape, _color) ENTITY(_shape,_color,google_kubernetes_engine,_label, _alias,DEV GOOGLE_KUBERNETES_ENGINE)
 skinparam folderBackgroundColor<<DEV GOOGLE_KUBERNETES_ENGINE>> White
 
 @enduml

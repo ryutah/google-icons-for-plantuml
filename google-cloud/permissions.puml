@@ -53,10 +53,10 @@ sprite $permissions [48x48/16] {
 
 
 
-!define DEV_PERMISSIONS(_alias) ENTITY(rectangle,black,android,_alias,DEV PERMISSIONS)
-!define DEV_PERMISSIONS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV PERMISSIONS)
-!define DEV_PERMISSIONS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV PERMISSIONS)
-!define DEV_PERMISSIONS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV PERMISSIONS)
+!define DEV_PERMISSIONS(_alias) ENTITY(rectangle,black,permissions,_alias,DEV PERMISSIONS)
+!define DEV_PERMISSIONS(_alias, _label) ENTITY(rectangle,black,permissions,_label, _alias,DEV PERMISSIONS)
+!define DEV_PERMISSIONS(_alias, _label, _shape) ENTITY(_shape,black,permissions,_label, _alias,DEV PERMISSIONS)
+!define DEV_PERMISSIONS(_alias, _label, _shape, _color) ENTITY(_shape,_color,permissions,_label, _alias,DEV PERMISSIONS)
 skinparam folderBackgroundColor<<DEV PERMISSIONS>> White
 
 @enduml

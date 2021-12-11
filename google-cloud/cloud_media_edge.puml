@@ -53,10 +53,10 @@ sprite $cloud_media_edge [48x48/16] {
 
 
 
-!define DEV_CLOUD_MEDIA_EDGE(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_MEDIA_EDGE)
-!define DEV_CLOUD_MEDIA_EDGE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_MEDIA_EDGE)
-!define DEV_CLOUD_MEDIA_EDGE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_MEDIA_EDGE)
-!define DEV_CLOUD_MEDIA_EDGE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_MEDIA_EDGE)
+!define DEV_CLOUD_MEDIA_EDGE(_alias) ENTITY(rectangle,black,cloud_media_edge,_alias,DEV CLOUD_MEDIA_EDGE)
+!define DEV_CLOUD_MEDIA_EDGE(_alias, _label) ENTITY(rectangle,black,cloud_media_edge,_label, _alias,DEV CLOUD_MEDIA_EDGE)
+!define DEV_CLOUD_MEDIA_EDGE(_alias, _label, _shape) ENTITY(_shape,black,cloud_media_edge,_label, _alias,DEV CLOUD_MEDIA_EDGE)
+!define DEV_CLOUD_MEDIA_EDGE(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_media_edge,_label, _alias,DEV CLOUD_MEDIA_EDGE)
 skinparam folderBackgroundColor<<DEV CLOUD_MEDIA_EDGE>> White
 
 @enduml

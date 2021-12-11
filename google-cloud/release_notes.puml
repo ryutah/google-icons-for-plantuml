@@ -53,10 +53,10 @@ sprite $release_notes [48x48/16] {
 
 
 
-!define DEV_RELEASE_NOTES(_alias) ENTITY(rectangle,black,android,_alias,DEV RELEASE_NOTES)
-!define DEV_RELEASE_NOTES(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV RELEASE_NOTES)
-!define DEV_RELEASE_NOTES(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV RELEASE_NOTES)
-!define DEV_RELEASE_NOTES(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV RELEASE_NOTES)
+!define DEV_RELEASE_NOTES(_alias) ENTITY(rectangle,black,release_notes,_alias,DEV RELEASE_NOTES)
+!define DEV_RELEASE_NOTES(_alias, _label) ENTITY(rectangle,black,release_notes,_label, _alias,DEV RELEASE_NOTES)
+!define DEV_RELEASE_NOTES(_alias, _label, _shape) ENTITY(_shape,black,release_notes,_label, _alias,DEV RELEASE_NOTES)
+!define DEV_RELEASE_NOTES(_alias, _label, _shape, _color) ENTITY(_shape,_color,release_notes,_label, _alias,DEV RELEASE_NOTES)
 skinparam folderBackgroundColor<<DEV RELEASE_NOTES>> White
 
 @enduml

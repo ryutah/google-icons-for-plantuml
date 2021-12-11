@@ -53,10 +53,10 @@ sprite $anthos_service_mesh [48x48/16] {
 
 
 
-!define DEV_ANTHOS_SERVICE_MESH(_alias) ENTITY(rectangle,black,android,_alias,DEV ANTHOS_SERVICE_MESH)
-!define DEV_ANTHOS_SERVICE_MESH(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV ANTHOS_SERVICE_MESH)
-!define DEV_ANTHOS_SERVICE_MESH(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV ANTHOS_SERVICE_MESH)
-!define DEV_ANTHOS_SERVICE_MESH(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV ANTHOS_SERVICE_MESH)
+!define DEV_ANTHOS_SERVICE_MESH(_alias) ENTITY(rectangle,black,anthos_service_mesh,_alias,DEV ANTHOS_SERVICE_MESH)
+!define DEV_ANTHOS_SERVICE_MESH(_alias, _label) ENTITY(rectangle,black,anthos_service_mesh,_label, _alias,DEV ANTHOS_SERVICE_MESH)
+!define DEV_ANTHOS_SERVICE_MESH(_alias, _label, _shape) ENTITY(_shape,black,anthos_service_mesh,_label, _alias,DEV ANTHOS_SERVICE_MESH)
+!define DEV_ANTHOS_SERVICE_MESH(_alias, _label, _shape, _color) ENTITY(_shape,_color,anthos_service_mesh,_label, _alias,DEV ANTHOS_SERVICE_MESH)
 skinparam folderBackgroundColor<<DEV ANTHOS_SERVICE_MESH>> White
 
 @enduml

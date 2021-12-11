@@ -53,10 +53,10 @@ sprite $cloud_tpu [48x48/16] {
 
 
 
-!define DEV_CLOUD_TPU(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_TPU)
-!define DEV_CLOUD_TPU(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_TPU)
-!define DEV_CLOUD_TPU(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_TPU)
-!define DEV_CLOUD_TPU(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_TPU)
+!define DEV_CLOUD_TPU(_alias) ENTITY(rectangle,black,cloud_tpu,_alias,DEV CLOUD_TPU)
+!define DEV_CLOUD_TPU(_alias, _label) ENTITY(rectangle,black,cloud_tpu,_label, _alias,DEV CLOUD_TPU)
+!define DEV_CLOUD_TPU(_alias, _label, _shape) ENTITY(_shape,black,cloud_tpu,_label, _alias,DEV CLOUD_TPU)
+!define DEV_CLOUD_TPU(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_tpu,_label, _alias,DEV CLOUD_TPU)
 skinparam folderBackgroundColor<<DEV CLOUD_TPU>> White
 
 @enduml

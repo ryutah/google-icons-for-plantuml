@@ -53,10 +53,10 @@ sprite $cloud_ops [48x48/16] {
 
 
 
-!define DEV_CLOUD_OPS(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_OPS)
-!define DEV_CLOUD_OPS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_OPS)
-!define DEV_CLOUD_OPS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_OPS)
-!define DEV_CLOUD_OPS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_OPS)
+!define DEV_CLOUD_OPS(_alias) ENTITY(rectangle,black,cloud_ops,_alias,DEV CLOUD_OPS)
+!define DEV_CLOUD_OPS(_alias, _label) ENTITY(rectangle,black,cloud_ops,_label, _alias,DEV CLOUD_OPS)
+!define DEV_CLOUD_OPS(_alias, _label, _shape) ENTITY(_shape,black,cloud_ops,_label, _alias,DEV CLOUD_OPS)
+!define DEV_CLOUD_OPS(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_ops,_label, _alias,DEV CLOUD_OPS)
 skinparam folderBackgroundColor<<DEV CLOUD_OPS>> White
 
 @enduml

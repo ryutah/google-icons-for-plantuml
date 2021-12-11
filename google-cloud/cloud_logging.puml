@@ -53,10 +53,10 @@ sprite $cloud_logging [48x48/16] {
 
 
 
-!define DEV_CLOUD_LOGGING(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_LOGGING)
-!define DEV_CLOUD_LOGGING(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_LOGGING)
-!define DEV_CLOUD_LOGGING(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_LOGGING)
-!define DEV_CLOUD_LOGGING(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_LOGGING)
+!define DEV_CLOUD_LOGGING(_alias) ENTITY(rectangle,black,cloud_logging,_alias,DEV CLOUD_LOGGING)
+!define DEV_CLOUD_LOGGING(_alias, _label) ENTITY(rectangle,black,cloud_logging,_label, _alias,DEV CLOUD_LOGGING)
+!define DEV_CLOUD_LOGGING(_alias, _label, _shape) ENTITY(_shape,black,cloud_logging,_label, _alias,DEV CLOUD_LOGGING)
+!define DEV_CLOUD_LOGGING(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_logging,_label, _alias,DEV CLOUD_LOGGING)
 skinparam folderBackgroundColor<<DEV CLOUD_LOGGING>> White
 
 @enduml

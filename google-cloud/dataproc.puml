@@ -53,10 +53,10 @@ sprite $dataproc [48x48/16] {
 
 
 
-!define DEV_DATAPROC(_alias) ENTITY(rectangle,black,android,_alias,DEV DATAPROC)
-!define DEV_DATAPROC(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV DATAPROC)
-!define DEV_DATAPROC(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV DATAPROC)
-!define DEV_DATAPROC(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV DATAPROC)
+!define DEV_DATAPROC(_alias) ENTITY(rectangle,black,dataproc,_alias,DEV DATAPROC)
+!define DEV_DATAPROC(_alias, _label) ENTITY(rectangle,black,dataproc,_label, _alias,DEV DATAPROC)
+!define DEV_DATAPROC(_alias, _label, _shape) ENTITY(_shape,black,dataproc,_label, _alias,DEV DATAPROC)
+!define DEV_DATAPROC(_alias, _label, _shape, _color) ENTITY(_shape,_color,dataproc,_label, _alias,DEV DATAPROC)
 skinparam folderBackgroundColor<<DEV DATAPROC>> White
 
 @enduml

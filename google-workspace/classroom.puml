@@ -53,10 +53,10 @@ sprite $classroom [48x48/16] {
 
 
 
-!define DEV_CLASSROOM(_alias) ENTITY(rectangle,black,android,_alias,DEV CLASSROOM)
-!define DEV_CLASSROOM(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLASSROOM)
-!define DEV_CLASSROOM(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLASSROOM)
-!define DEV_CLASSROOM(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLASSROOM)
+!define DEV_CLASSROOM(_alias) ENTITY(rectangle,black,classroom,_alias,DEV CLASSROOM)
+!define DEV_CLASSROOM(_alias, _label) ENTITY(rectangle,black,classroom,_label, _alias,DEV CLASSROOM)
+!define DEV_CLASSROOM(_alias, _label, _shape) ENTITY(_shape,black,classroom,_label, _alias,DEV CLASSROOM)
+!define DEV_CLASSROOM(_alias, _label, _shape, _color) ENTITY(_shape,_color,classroom,_label, _alias,DEV CLASSROOM)
 skinparam folderBackgroundColor<<DEV CLASSROOM>> White
 
 @enduml

@@ -53,10 +53,10 @@ sprite $keep [48x48/16] {
 
 
 
-!define DEV_KEEP(_alias) ENTITY(rectangle,black,android,_alias,DEV KEEP)
-!define DEV_KEEP(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV KEEP)
-!define DEV_KEEP(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV KEEP)
-!define DEV_KEEP(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV KEEP)
+!define DEV_KEEP(_alias) ENTITY(rectangle,black,keep,_alias,DEV KEEP)
+!define DEV_KEEP(_alias, _label) ENTITY(rectangle,black,keep,_label, _alias,DEV KEEP)
+!define DEV_KEEP(_alias, _label, _shape) ENTITY(_shape,black,keep,_label, _alias,DEV KEEP)
+!define DEV_KEEP(_alias, _label, _shape, _color) ENTITY(_shape,_color,keep,_label, _alias,DEV KEEP)
 skinparam folderBackgroundColor<<DEV KEEP>> White
 
 @enduml

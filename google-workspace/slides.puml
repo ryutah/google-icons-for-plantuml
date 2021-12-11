@@ -53,10 +53,10 @@ sprite $slides [48x48/16] {
 
 
 
-!define DEV_SLIDES(_alias) ENTITY(rectangle,black,android,_alias,DEV SLIDES)
-!define DEV_SLIDES(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV SLIDES)
-!define DEV_SLIDES(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV SLIDES)
-!define DEV_SLIDES(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV SLIDES)
+!define DEV_SLIDES(_alias) ENTITY(rectangle,black,slides,_alias,DEV SLIDES)
+!define DEV_SLIDES(_alias, _label) ENTITY(rectangle,black,slides,_label, _alias,DEV SLIDES)
+!define DEV_SLIDES(_alias, _label, _shape) ENTITY(_shape,black,slides,_label, _alias,DEV SLIDES)
+!define DEV_SLIDES(_alias, _label, _shape, _color) ENTITY(_shape,_color,slides,_label, _alias,DEV SLIDES)
 skinparam folderBackgroundColor<<DEV SLIDES>> White
 
 @enduml

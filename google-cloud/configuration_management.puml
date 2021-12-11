@@ -53,10 +53,10 @@ sprite $configuration_management [48x48/16] {
 
 
 
-!define DEV_CONFIGURATION_MANAGEMENT(_alias) ENTITY(rectangle,black,android,_alias,DEV CONFIGURATION_MANAGEMENT)
-!define DEV_CONFIGURATION_MANAGEMENT(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CONFIGURATION_MANAGEMENT)
-!define DEV_CONFIGURATION_MANAGEMENT(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CONFIGURATION_MANAGEMENT)
-!define DEV_CONFIGURATION_MANAGEMENT(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CONFIGURATION_MANAGEMENT)
+!define DEV_CONFIGURATION_MANAGEMENT(_alias) ENTITY(rectangle,black,configuration_management,_alias,DEV CONFIGURATION_MANAGEMENT)
+!define DEV_CONFIGURATION_MANAGEMENT(_alias, _label) ENTITY(rectangle,black,configuration_management,_label, _alias,DEV CONFIGURATION_MANAGEMENT)
+!define DEV_CONFIGURATION_MANAGEMENT(_alias, _label, _shape) ENTITY(_shape,black,configuration_management,_label, _alias,DEV CONFIGURATION_MANAGEMENT)
+!define DEV_CONFIGURATION_MANAGEMENT(_alias, _label, _shape, _color) ENTITY(_shape,_color,configuration_management,_label, _alias,DEV CONFIGURATION_MANAGEMENT)
 skinparam folderBackgroundColor<<DEV CONFIGURATION_MANAGEMENT>> White
 
 @enduml

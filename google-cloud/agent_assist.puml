@@ -53,10 +53,10 @@ sprite $agent_assist [48x48/16] {
 
 
 
-!define DEV_AGENT_ASSIST(_alias) ENTITY(rectangle,black,android,_alias,DEV AGENT_ASSIST)
-!define DEV_AGENT_ASSIST(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV AGENT_ASSIST)
-!define DEV_AGENT_ASSIST(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV AGENT_ASSIST)
-!define DEV_AGENT_ASSIST(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV AGENT_ASSIST)
+!define DEV_AGENT_ASSIST(_alias) ENTITY(rectangle,black,agent_assist,_alias,DEV AGENT_ASSIST)
+!define DEV_AGENT_ASSIST(_alias, _label) ENTITY(rectangle,black,agent_assist,_label, _alias,DEV AGENT_ASSIST)
+!define DEV_AGENT_ASSIST(_alias, _label, _shape) ENTITY(_shape,black,agent_assist,_label, _alias,DEV AGENT_ASSIST)
+!define DEV_AGENT_ASSIST(_alias, _label, _shape, _color) ENTITY(_shape,_color,agent_assist,_label, _alias,DEV AGENT_ASSIST)
 skinparam folderBackgroundColor<<DEV AGENT_ASSIST>> White
 
 @enduml

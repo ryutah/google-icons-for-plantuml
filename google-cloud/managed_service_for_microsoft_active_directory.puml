@@ -53,10 +53,10 @@ sprite $managed_service_for_microsoft_active_directory [48x48/16] {
 
 
 
-!define DEV_MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY(_alias) ENTITY(rectangle,black,android,_alias,DEV MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY)
-!define DEV_MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY)
-!define DEV_MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY)
-!define DEV_MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY)
+!define DEV_MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY(_alias) ENTITY(rectangle,black,managed_service_for_microsoft_active_directory,_alias,DEV MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY)
+!define DEV_MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY(_alias, _label) ENTITY(rectangle,black,managed_service_for_microsoft_active_directory,_label, _alias,DEV MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY)
+!define DEV_MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY(_alias, _label, _shape) ENTITY(_shape,black,managed_service_for_microsoft_active_directory,_label, _alias,DEV MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY)
+!define DEV_MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY(_alias, _label, _shape, _color) ENTITY(_shape,_color,managed_service_for_microsoft_active_directory,_label, _alias,DEV MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY)
 skinparam folderBackgroundColor<<DEV MANAGED_SERVICE_FOR_MICROSOFT_ACTIVE_DIRECTORY>> White
 
 @enduml

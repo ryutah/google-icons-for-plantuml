@@ -53,10 +53,10 @@ sprite $voice [48x48/16] {
 
 
 
-!define DEV_VOICE(_alias) ENTITY(rectangle,black,android,_alias,DEV VOICE)
-!define DEV_VOICE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV VOICE)
-!define DEV_VOICE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV VOICE)
-!define DEV_VOICE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV VOICE)
+!define DEV_VOICE(_alias) ENTITY(rectangle,black,voice,_alias,DEV VOICE)
+!define DEV_VOICE(_alias, _label) ENTITY(rectangle,black,voice,_label, _alias,DEV VOICE)
+!define DEV_VOICE(_alias, _label, _shape) ENTITY(_shape,black,voice,_label, _alias,DEV VOICE)
+!define DEV_VOICE(_alias, _label, _shape, _color) ENTITY(_shape,_color,voice,_label, _alias,DEV VOICE)
 skinparam folderBackgroundColor<<DEV VOICE>> White
 
 @enduml

@@ -53,10 +53,10 @@ sprite $stackdriver [48x48/16] {
 
 
 
-!define DEV_STACKDRIVER(_alias) ENTITY(rectangle,black,android,_alias,DEV STACKDRIVER)
-!define DEV_STACKDRIVER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV STACKDRIVER)
-!define DEV_STACKDRIVER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV STACKDRIVER)
-!define DEV_STACKDRIVER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV STACKDRIVER)
+!define DEV_STACKDRIVER(_alias) ENTITY(rectangle,black,stackdriver,_alias,DEV STACKDRIVER)
+!define DEV_STACKDRIVER(_alias, _label) ENTITY(rectangle,black,stackdriver,_label, _alias,DEV STACKDRIVER)
+!define DEV_STACKDRIVER(_alias, _label, _shape) ENTITY(_shape,black,stackdriver,_label, _alias,DEV STACKDRIVER)
+!define DEV_STACKDRIVER(_alias, _label, _shape, _color) ENTITY(_shape,_color,stackdriver,_label, _alias,DEV STACKDRIVER)
 skinparam folderBackgroundColor<<DEV STACKDRIVER>> White
 
 @enduml

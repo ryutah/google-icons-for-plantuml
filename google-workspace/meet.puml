@@ -53,10 +53,10 @@ sprite $meet [48x48/16] {
 
 
 
-!define DEV_MEET(_alias) ENTITY(rectangle,black,android,_alias,DEV MEET)
-!define DEV_MEET(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV MEET)
-!define DEV_MEET(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV MEET)
-!define DEV_MEET(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV MEET)
+!define DEV_MEET(_alias) ENTITY(rectangle,black,meet,_alias,DEV MEET)
+!define DEV_MEET(_alias, _label) ENTITY(rectangle,black,meet,_label, _alias,DEV MEET)
+!define DEV_MEET(_alias, _label, _shape) ENTITY(_shape,black,meet,_label, _alias,DEV MEET)
+!define DEV_MEET(_alias, _label, _shape, _color) ENTITY(_shape,_color,meet,_label, _alias,DEV MEET)
 skinparam folderBackgroundColor<<DEV MEET>> White
 
 @enduml

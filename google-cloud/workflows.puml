@@ -53,10 +53,10 @@ sprite $workflows [48x48/16] {
 
 
 
-!define DEV_WORKFLOWS(_alias) ENTITY(rectangle,black,android,_alias,DEV WORKFLOWS)
-!define DEV_WORKFLOWS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV WORKFLOWS)
-!define DEV_WORKFLOWS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV WORKFLOWS)
-!define DEV_WORKFLOWS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV WORKFLOWS)
+!define DEV_WORKFLOWS(_alias) ENTITY(rectangle,black,workflows,_alias,DEV WORKFLOWS)
+!define DEV_WORKFLOWS(_alias, _label) ENTITY(rectangle,black,workflows,_label, _alias,DEV WORKFLOWS)
+!define DEV_WORKFLOWS(_alias, _label, _shape) ENTITY(_shape,black,workflows,_label, _alias,DEV WORKFLOWS)
+!define DEV_WORKFLOWS(_alias, _label, _shape, _color) ENTITY(_shape,_color,workflows,_label, _alias,DEV WORKFLOWS)
 skinparam folderBackgroundColor<<DEV WORKFLOWS>> White
 
 @enduml

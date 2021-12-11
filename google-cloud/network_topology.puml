@@ -53,10 +53,10 @@ sprite $network_topology [48x48/16] {
 
 
 
-!define DEV_NETWORK_TOPOLOGY(_alias) ENTITY(rectangle,black,android,_alias,DEV NETWORK_TOPOLOGY)
-!define DEV_NETWORK_TOPOLOGY(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV NETWORK_TOPOLOGY)
-!define DEV_NETWORK_TOPOLOGY(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV NETWORK_TOPOLOGY)
-!define DEV_NETWORK_TOPOLOGY(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV NETWORK_TOPOLOGY)
+!define DEV_NETWORK_TOPOLOGY(_alias) ENTITY(rectangle,black,network_topology,_alias,DEV NETWORK_TOPOLOGY)
+!define DEV_NETWORK_TOPOLOGY(_alias, _label) ENTITY(rectangle,black,network_topology,_label, _alias,DEV NETWORK_TOPOLOGY)
+!define DEV_NETWORK_TOPOLOGY(_alias, _label, _shape) ENTITY(_shape,black,network_topology,_label, _alias,DEV NETWORK_TOPOLOGY)
+!define DEV_NETWORK_TOPOLOGY(_alias, _label, _shape, _color) ENTITY(_shape,_color,network_topology,_label, _alias,DEV NETWORK_TOPOLOGY)
 skinparam folderBackgroundColor<<DEV NETWORK_TOPOLOGY>> White
 
 @enduml

@@ -53,10 +53,10 @@ sprite $app_engine [48x48/16] {
 
 
 
-!define DEV_APP_ENGINE(_alias) ENTITY(rectangle,black,android,_alias,DEV APP_ENGINE)
-!define DEV_APP_ENGINE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV APP_ENGINE)
-!define DEV_APP_ENGINE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV APP_ENGINE)
-!define DEV_APP_ENGINE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV APP_ENGINE)
+!define DEV_APP_ENGINE(_alias) ENTITY(rectangle,black,app_engine,_alias,DEV APP_ENGINE)
+!define DEV_APP_ENGINE(_alias, _label) ENTITY(rectangle,black,app_engine,_label, _alias,DEV APP_ENGINE)
+!define DEV_APP_ENGINE(_alias, _label, _shape) ENTITY(_shape,black,app_engine,_label, _alias,DEV APP_ENGINE)
+!define DEV_APP_ENGINE(_alias, _label, _shape, _color) ENTITY(_shape,_color,app_engine,_label, _alias,DEV APP_ENGINE)
 skinparam folderBackgroundColor<<DEV APP_ENGINE>> White
 
 @enduml

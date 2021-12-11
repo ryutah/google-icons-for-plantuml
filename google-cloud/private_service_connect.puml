@@ -53,10 +53,10 @@ sprite $private_service_connect [48x48/16] {
 
 
 
-!define DEV_PRIVATE_SERVICE_CONNECT(_alias) ENTITY(rectangle,black,android,_alias,DEV PRIVATE_SERVICE_CONNECT)
-!define DEV_PRIVATE_SERVICE_CONNECT(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV PRIVATE_SERVICE_CONNECT)
-!define DEV_PRIVATE_SERVICE_CONNECT(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV PRIVATE_SERVICE_CONNECT)
-!define DEV_PRIVATE_SERVICE_CONNECT(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV PRIVATE_SERVICE_CONNECT)
+!define DEV_PRIVATE_SERVICE_CONNECT(_alias) ENTITY(rectangle,black,private_service_connect,_alias,DEV PRIVATE_SERVICE_CONNECT)
+!define DEV_PRIVATE_SERVICE_CONNECT(_alias, _label) ENTITY(rectangle,black,private_service_connect,_label, _alias,DEV PRIVATE_SERVICE_CONNECT)
+!define DEV_PRIVATE_SERVICE_CONNECT(_alias, _label, _shape) ENTITY(_shape,black,private_service_connect,_label, _alias,DEV PRIVATE_SERVICE_CONNECT)
+!define DEV_PRIVATE_SERVICE_CONNECT(_alias, _label, _shape, _color) ENTITY(_shape,_color,private_service_connect,_label, _alias,DEV PRIVATE_SERVICE_CONNECT)
 skinparam folderBackgroundColor<<DEV PRIVATE_SERVICE_CONNECT>> White
 
 @enduml

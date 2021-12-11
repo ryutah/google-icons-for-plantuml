@@ -53,10 +53,10 @@ sprite $traffic_director [48x48/16] {
 
 
 
-!define DEV_TRAFFIC_DIRECTOR(_alias) ENTITY(rectangle,black,android,_alias,DEV TRAFFIC_DIRECTOR)
-!define DEV_TRAFFIC_DIRECTOR(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV TRAFFIC_DIRECTOR)
-!define DEV_TRAFFIC_DIRECTOR(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV TRAFFIC_DIRECTOR)
-!define DEV_TRAFFIC_DIRECTOR(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV TRAFFIC_DIRECTOR)
+!define DEV_TRAFFIC_DIRECTOR(_alias) ENTITY(rectangle,black,traffic_director,_alias,DEV TRAFFIC_DIRECTOR)
+!define DEV_TRAFFIC_DIRECTOR(_alias, _label) ENTITY(rectangle,black,traffic_director,_label, _alias,DEV TRAFFIC_DIRECTOR)
+!define DEV_TRAFFIC_DIRECTOR(_alias, _label, _shape) ENTITY(_shape,black,traffic_director,_label, _alias,DEV TRAFFIC_DIRECTOR)
+!define DEV_TRAFFIC_DIRECTOR(_alias, _label, _shape, _color) ENTITY(_shape,_color,traffic_director,_label, _alias,DEV TRAFFIC_DIRECTOR)
 skinparam folderBackgroundColor<<DEV TRAFFIC_DIRECTOR>> White
 
 @enduml

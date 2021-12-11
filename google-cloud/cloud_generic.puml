@@ -53,10 +53,10 @@ sprite $cloud_generic [48x48/16] {
 
 
 
-!define DEV_CLOUD_GENERIC(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_GENERIC)
-!define DEV_CLOUD_GENERIC(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_GENERIC)
-!define DEV_CLOUD_GENERIC(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_GENERIC)
-!define DEV_CLOUD_GENERIC(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_GENERIC)
+!define DEV_CLOUD_GENERIC(_alias) ENTITY(rectangle,black,cloud_generic,_alias,DEV CLOUD_GENERIC)
+!define DEV_CLOUD_GENERIC(_alias, _label) ENTITY(rectangle,black,cloud_generic,_label, _alias,DEV CLOUD_GENERIC)
+!define DEV_CLOUD_GENERIC(_alias, _label, _shape) ENTITY(_shape,black,cloud_generic,_label, _alias,DEV CLOUD_GENERIC)
+!define DEV_CLOUD_GENERIC(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_generic,_label, _alias,DEV CLOUD_GENERIC)
 skinparam folderBackgroundColor<<DEV CLOUD_GENERIC>> White
 
 @enduml

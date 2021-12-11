@@ -53,10 +53,10 @@ sprite $cloud_ekm [48x48/16] {
 
 
 
-!define DEV_CLOUD_EKM(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_EKM)
-!define DEV_CLOUD_EKM(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_EKM)
-!define DEV_CLOUD_EKM(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_EKM)
-!define DEV_CLOUD_EKM(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_EKM)
+!define DEV_CLOUD_EKM(_alias) ENTITY(rectangle,black,cloud_ekm,_alias,DEV CLOUD_EKM)
+!define DEV_CLOUD_EKM(_alias, _label) ENTITY(rectangle,black,cloud_ekm,_label, _alias,DEV CLOUD_EKM)
+!define DEV_CLOUD_EKM(_alias, _label, _shape) ENTITY(_shape,black,cloud_ekm,_label, _alias,DEV CLOUD_EKM)
+!define DEV_CLOUD_EKM(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_ekm,_label, _alias,DEV CLOUD_EKM)
 skinparam folderBackgroundColor<<DEV CLOUD_EKM>> White
 
 @enduml

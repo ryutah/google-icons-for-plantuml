@@ -53,10 +53,10 @@ sprite $cloud_test_lab [48x48/16] {
 
 
 
-!define DEV_CLOUD_TEST_LAB(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_TEST_LAB)
-!define DEV_CLOUD_TEST_LAB(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_TEST_LAB)
-!define DEV_CLOUD_TEST_LAB(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_TEST_LAB)
-!define DEV_CLOUD_TEST_LAB(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_TEST_LAB)
+!define DEV_CLOUD_TEST_LAB(_alias) ENTITY(rectangle,black,cloud_test_lab,_alias,DEV CLOUD_TEST_LAB)
+!define DEV_CLOUD_TEST_LAB(_alias, _label) ENTITY(rectangle,black,cloud_test_lab,_label, _alias,DEV CLOUD_TEST_LAB)
+!define DEV_CLOUD_TEST_LAB(_alias, _label, _shape) ENTITY(_shape,black,cloud_test_lab,_label, _alias,DEV CLOUD_TEST_LAB)
+!define DEV_CLOUD_TEST_LAB(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_test_lab,_label, _alias,DEV CLOUD_TEST_LAB)
 skinparam folderBackgroundColor<<DEV CLOUD_TEST_LAB>> White
 
 @enduml

@@ -53,10 +53,10 @@ sprite $key_access_justifications [48x48/16] {
 
 
 
-!define DEV_KEY_ACCESS_JUSTIFICATIONS(_alias) ENTITY(rectangle,black,android,_alias,DEV KEY_ACCESS_JUSTIFICATIONS)
-!define DEV_KEY_ACCESS_JUSTIFICATIONS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV KEY_ACCESS_JUSTIFICATIONS)
-!define DEV_KEY_ACCESS_JUSTIFICATIONS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV KEY_ACCESS_JUSTIFICATIONS)
-!define DEV_KEY_ACCESS_JUSTIFICATIONS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV KEY_ACCESS_JUSTIFICATIONS)
+!define DEV_KEY_ACCESS_JUSTIFICATIONS(_alias) ENTITY(rectangle,black,key_access_justifications,_alias,DEV KEY_ACCESS_JUSTIFICATIONS)
+!define DEV_KEY_ACCESS_JUSTIFICATIONS(_alias, _label) ENTITY(rectangle,black,key_access_justifications,_label, _alias,DEV KEY_ACCESS_JUSTIFICATIONS)
+!define DEV_KEY_ACCESS_JUSTIFICATIONS(_alias, _label, _shape) ENTITY(_shape,black,key_access_justifications,_label, _alias,DEV KEY_ACCESS_JUSTIFICATIONS)
+!define DEV_KEY_ACCESS_JUSTIFICATIONS(_alias, _label, _shape, _color) ENTITY(_shape,_color,key_access_justifications,_label, _alias,DEV KEY_ACCESS_JUSTIFICATIONS)
 skinparam folderBackgroundColor<<DEV KEY_ACCESS_JUSTIFICATIONS>> White
 
 @enduml

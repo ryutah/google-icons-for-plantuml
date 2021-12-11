@@ -53,10 +53,10 @@ sprite $home [48x48/16] {
 
 
 
-!define DEV_HOME(_alias) ENTITY(rectangle,black,android,_alias,DEV HOME)
-!define DEV_HOME(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV HOME)
-!define DEV_HOME(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV HOME)
-!define DEV_HOME(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV HOME)
+!define DEV_HOME(_alias) ENTITY(rectangle,black,home,_alias,DEV HOME)
+!define DEV_HOME(_alias, _label) ENTITY(rectangle,black,home,_label, _alias,DEV HOME)
+!define DEV_HOME(_alias, _label, _shape) ENTITY(_shape,black,home,_label, _alias,DEV HOME)
+!define DEV_HOME(_alias, _label, _shape, _color) ENTITY(_shape,_color,home,_label, _alias,DEV HOME)
 skinparam folderBackgroundColor<<DEV HOME>> White
 
 @enduml

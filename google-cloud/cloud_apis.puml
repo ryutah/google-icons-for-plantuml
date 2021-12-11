@@ -53,10 +53,10 @@ sprite $cloud_apis [48x48/16] {
 
 
 
-!define DEV_CLOUD_APIS(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_APIS)
-!define DEV_CLOUD_APIS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_APIS)
-!define DEV_CLOUD_APIS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_APIS)
-!define DEV_CLOUD_APIS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_APIS)
+!define DEV_CLOUD_APIS(_alias) ENTITY(rectangle,black,cloud_apis,_alias,DEV CLOUD_APIS)
+!define DEV_CLOUD_APIS(_alias, _label) ENTITY(rectangle,black,cloud_apis,_label, _alias,DEV CLOUD_APIS)
+!define DEV_CLOUD_APIS(_alias, _label, _shape) ENTITY(_shape,black,cloud_apis,_label, _alias,DEV CLOUD_APIS)
+!define DEV_CLOUD_APIS(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_apis,_label, _alias,DEV CLOUD_APIS)
 skinparam folderBackgroundColor<<DEV CLOUD_APIS>> White
 
 @enduml

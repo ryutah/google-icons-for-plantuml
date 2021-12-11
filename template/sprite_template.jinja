@@ -2,10 +2,10 @@
 
 {{ sprite_definition }}
 
-!define DEV_{{ resource_name }}(_alias) ENTITY(rectangle,black,android,_alias,DEV {{ resource_name }})
-!define DEV_{{ resource_name }}(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV {{ resource_name }})
-!define DEV_{{ resource_name }}(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV {{ resource_name }})
-!define DEV_{{ resource_name }}(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV {{ resource_name }})
+!define DEV_{{ resource_name }}(_alias) ENTITY(rectangle,black,{{ sprite_name }},_alias,DEV {{ resource_name }})
+!define DEV_{{ resource_name }}(_alias, _label) ENTITY(rectangle,black,{{ sprite_name }},_label, _alias,DEV {{ resource_name }})
+!define DEV_{{ resource_name }}(_alias, _label, _shape) ENTITY(_shape,black,{{ sprite_name }},_label, _alias,DEV {{ resource_name }})
+!define DEV_{{ resource_name }}(_alias, _label, _shape, _color) ENTITY(_shape,_color,{{ sprite_name }},_label, _alias,DEV {{ resource_name }})
 skinparam folderBackgroundColor<<DEV {{ resource_name }}>> White
 
 @enduml

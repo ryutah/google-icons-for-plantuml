@@ -53,10 +53,10 @@ sprite $service_discovery [48x48/16] {
 
 
 
-!define DEV_SERVICE_DISCOVERY(_alias) ENTITY(rectangle,black,android,_alias,DEV SERVICE_DISCOVERY)
-!define DEV_SERVICE_DISCOVERY(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV SERVICE_DISCOVERY)
-!define DEV_SERVICE_DISCOVERY(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV SERVICE_DISCOVERY)
-!define DEV_SERVICE_DISCOVERY(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV SERVICE_DISCOVERY)
+!define DEV_SERVICE_DISCOVERY(_alias) ENTITY(rectangle,black,service_discovery,_alias,DEV SERVICE_DISCOVERY)
+!define DEV_SERVICE_DISCOVERY(_alias, _label) ENTITY(rectangle,black,service_discovery,_label, _alias,DEV SERVICE_DISCOVERY)
+!define DEV_SERVICE_DISCOVERY(_alias, _label, _shape) ENTITY(_shape,black,service_discovery,_label, _alias,DEV SERVICE_DISCOVERY)
+!define DEV_SERVICE_DISCOVERY(_alias, _label, _shape, _color) ENTITY(_shape,_color,service_discovery,_label, _alias,DEV SERVICE_DISCOVERY)
 skinparam folderBackgroundColor<<DEV SERVICE_DISCOVERY>> White
 
 @enduml

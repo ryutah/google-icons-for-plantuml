@@ -53,10 +53,10 @@ sprite $connectivity_test [48x48/16] {
 
 
 
-!define DEV_CONNECTIVITY_TEST(_alias) ENTITY(rectangle,black,android,_alias,DEV CONNECTIVITY_TEST)
-!define DEV_CONNECTIVITY_TEST(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CONNECTIVITY_TEST)
-!define DEV_CONNECTIVITY_TEST(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CONNECTIVITY_TEST)
-!define DEV_CONNECTIVITY_TEST(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CONNECTIVITY_TEST)
+!define DEV_CONNECTIVITY_TEST(_alias) ENTITY(rectangle,black,connectivity_test,_alias,DEV CONNECTIVITY_TEST)
+!define DEV_CONNECTIVITY_TEST(_alias, _label) ENTITY(rectangle,black,connectivity_test,_label, _alias,DEV CONNECTIVITY_TEST)
+!define DEV_CONNECTIVITY_TEST(_alias, _label, _shape) ENTITY(_shape,black,connectivity_test,_label, _alias,DEV CONNECTIVITY_TEST)
+!define DEV_CONNECTIVITY_TEST(_alias, _label, _shape, _color) ENTITY(_shape,_color,connectivity_test,_label, _alias,DEV CONNECTIVITY_TEST)
 skinparam folderBackgroundColor<<DEV CONNECTIVITY_TEST>> White
 
 @enduml

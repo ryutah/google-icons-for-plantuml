@@ -53,10 +53,10 @@ sprite $gmail [48x48/16] {
 
 
 
-!define DEV_GMAIL(_alias) ENTITY(rectangle,black,android,_alias,DEV GMAIL)
-!define DEV_GMAIL(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV GMAIL)
-!define DEV_GMAIL(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV GMAIL)
-!define DEV_GMAIL(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV GMAIL)
+!define DEV_GMAIL(_alias) ENTITY(rectangle,black,gmail,_alias,DEV GMAIL)
+!define DEV_GMAIL(_alias, _label) ENTITY(rectangle,black,gmail,_label, _alias,DEV GMAIL)
+!define DEV_GMAIL(_alias, _label, _shape) ENTITY(_shape,black,gmail,_label, _alias,DEV GMAIL)
+!define DEV_GMAIL(_alias, _label, _shape, _color) ENTITY(_shape,_color,gmail,_label, _alias,DEV GMAIL)
 skinparam folderBackgroundColor<<DEV GMAIL>> White
 
 @enduml

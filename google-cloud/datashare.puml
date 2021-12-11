@@ -53,10 +53,10 @@ sprite $datashare [48x48/16] {
 
 
 
-!define DEV_DATASHARE(_alias) ENTITY(rectangle,black,android,_alias,DEV DATASHARE)
-!define DEV_DATASHARE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV DATASHARE)
-!define DEV_DATASHARE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV DATASHARE)
-!define DEV_DATASHARE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV DATASHARE)
+!define DEV_DATASHARE(_alias) ENTITY(rectangle,black,datashare,_alias,DEV DATASHARE)
+!define DEV_DATASHARE(_alias, _label) ENTITY(rectangle,black,datashare,_label, _alias,DEV DATASHARE)
+!define DEV_DATASHARE(_alias, _label, _shape) ENTITY(_shape,black,datashare,_label, _alias,DEV DATASHARE)
+!define DEV_DATASHARE(_alias, _label, _shape, _color) ENTITY(_shape,_color,datashare,_label, _alias,DEV DATASHARE)
 skinparam folderBackgroundColor<<DEV DATASHARE>> White
 
 @enduml

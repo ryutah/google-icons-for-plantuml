@@ -53,10 +53,10 @@ sprite $financial_services_marketplace [48x48/16] {
 
 
 
-!define DEV_FINANCIAL_SERVICES_MARKETPLACE(_alias) ENTITY(rectangle,black,android,_alias,DEV FINANCIAL_SERVICES_MARKETPLACE)
-!define DEV_FINANCIAL_SERVICES_MARKETPLACE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV FINANCIAL_SERVICES_MARKETPLACE)
-!define DEV_FINANCIAL_SERVICES_MARKETPLACE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV FINANCIAL_SERVICES_MARKETPLACE)
-!define DEV_FINANCIAL_SERVICES_MARKETPLACE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV FINANCIAL_SERVICES_MARKETPLACE)
+!define DEV_FINANCIAL_SERVICES_MARKETPLACE(_alias) ENTITY(rectangle,black,financial_services_marketplace,_alias,DEV FINANCIAL_SERVICES_MARKETPLACE)
+!define DEV_FINANCIAL_SERVICES_MARKETPLACE(_alias, _label) ENTITY(rectangle,black,financial_services_marketplace,_label, _alias,DEV FINANCIAL_SERVICES_MARKETPLACE)
+!define DEV_FINANCIAL_SERVICES_MARKETPLACE(_alias, _label, _shape) ENTITY(_shape,black,financial_services_marketplace,_label, _alias,DEV FINANCIAL_SERVICES_MARKETPLACE)
+!define DEV_FINANCIAL_SERVICES_MARKETPLACE(_alias, _label, _shape, _color) ENTITY(_shape,_color,financial_services_marketplace,_label, _alias,DEV FINANCIAL_SERVICES_MARKETPLACE)
 skinparam folderBackgroundColor<<DEV FINANCIAL_SERVICES_MARKETPLACE>> White
 
 @enduml

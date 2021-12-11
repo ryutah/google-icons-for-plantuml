@@ -53,10 +53,10 @@ sprite $migrate_for_compute_engine [48x48/16] {
 
 
 
-!define DEV_MIGRATE_FOR_COMPUTE_ENGINE(_alias) ENTITY(rectangle,black,android,_alias,DEV MIGRATE_FOR_COMPUTE_ENGINE)
-!define DEV_MIGRATE_FOR_COMPUTE_ENGINE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV MIGRATE_FOR_COMPUTE_ENGINE)
-!define DEV_MIGRATE_FOR_COMPUTE_ENGINE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV MIGRATE_FOR_COMPUTE_ENGINE)
-!define DEV_MIGRATE_FOR_COMPUTE_ENGINE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV MIGRATE_FOR_COMPUTE_ENGINE)
+!define DEV_MIGRATE_FOR_COMPUTE_ENGINE(_alias) ENTITY(rectangle,black,migrate_for_compute_engine,_alias,DEV MIGRATE_FOR_COMPUTE_ENGINE)
+!define DEV_MIGRATE_FOR_COMPUTE_ENGINE(_alias, _label) ENTITY(rectangle,black,migrate_for_compute_engine,_label, _alias,DEV MIGRATE_FOR_COMPUTE_ENGINE)
+!define DEV_MIGRATE_FOR_COMPUTE_ENGINE(_alias, _label, _shape) ENTITY(_shape,black,migrate_for_compute_engine,_label, _alias,DEV MIGRATE_FOR_COMPUTE_ENGINE)
+!define DEV_MIGRATE_FOR_COMPUTE_ENGINE(_alias, _label, _shape, _color) ENTITY(_shape,_color,migrate_for_compute_engine,_label, _alias,DEV MIGRATE_FOR_COMPUTE_ENGINE)
 skinparam folderBackgroundColor<<DEV MIGRATE_FOR_COMPUTE_ENGINE>> White
 
 @enduml

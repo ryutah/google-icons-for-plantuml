@@ -53,10 +53,10 @@ sprite $automl_tables [48x48/16] {
 
 
 
-!define DEV_AUTOML_TABLES(_alias) ENTITY(rectangle,black,android,_alias,DEV AUTOML_TABLES)
-!define DEV_AUTOML_TABLES(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV AUTOML_TABLES)
-!define DEV_AUTOML_TABLES(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV AUTOML_TABLES)
-!define DEV_AUTOML_TABLES(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV AUTOML_TABLES)
+!define DEV_AUTOML_TABLES(_alias) ENTITY(rectangle,black,automl_tables,_alias,DEV AUTOML_TABLES)
+!define DEV_AUTOML_TABLES(_alias, _label) ENTITY(rectangle,black,automl_tables,_label, _alias,DEV AUTOML_TABLES)
+!define DEV_AUTOML_TABLES(_alias, _label, _shape) ENTITY(_shape,black,automl_tables,_label, _alias,DEV AUTOML_TABLES)
+!define DEV_AUTOML_TABLES(_alias, _label, _shape, _color) ENTITY(_shape,_color,automl_tables,_label, _alias,DEV AUTOML_TABLES)
 skinparam folderBackgroundColor<<DEV AUTOML_TABLES>> White
 
 @enduml

@@ -53,10 +53,10 @@ sprite $network_connectivity_center [48x48/16] {
 
 
 
-!define DEV_NETWORK_CONNECTIVITY_CENTER(_alias) ENTITY(rectangle,black,android,_alias,DEV NETWORK_CONNECTIVITY_CENTER)
-!define DEV_NETWORK_CONNECTIVITY_CENTER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV NETWORK_CONNECTIVITY_CENTER)
-!define DEV_NETWORK_CONNECTIVITY_CENTER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV NETWORK_CONNECTIVITY_CENTER)
-!define DEV_NETWORK_CONNECTIVITY_CENTER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV NETWORK_CONNECTIVITY_CENTER)
+!define DEV_NETWORK_CONNECTIVITY_CENTER(_alias) ENTITY(rectangle,black,network_connectivity_center,_alias,DEV NETWORK_CONNECTIVITY_CENTER)
+!define DEV_NETWORK_CONNECTIVITY_CENTER(_alias, _label) ENTITY(rectangle,black,network_connectivity_center,_label, _alias,DEV NETWORK_CONNECTIVITY_CENTER)
+!define DEV_NETWORK_CONNECTIVITY_CENTER(_alias, _label, _shape) ENTITY(_shape,black,network_connectivity_center,_label, _alias,DEV NETWORK_CONNECTIVITY_CENTER)
+!define DEV_NETWORK_CONNECTIVITY_CENTER(_alias, _label, _shape, _color) ENTITY(_shape,_color,network_connectivity_center,_label, _alias,DEV NETWORK_CONNECTIVITY_CENTER)
 skinparam folderBackgroundColor<<DEV NETWORK_CONNECTIVITY_CENTER>> White
 
 @enduml

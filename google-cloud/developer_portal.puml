@@ -53,10 +53,10 @@ sprite $developer_portal [48x48/16] {
 
 
 
-!define DEV_DEVELOPER_PORTAL(_alias) ENTITY(rectangle,black,android,_alias,DEV DEVELOPER_PORTAL)
-!define DEV_DEVELOPER_PORTAL(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV DEVELOPER_PORTAL)
-!define DEV_DEVELOPER_PORTAL(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV DEVELOPER_PORTAL)
-!define DEV_DEVELOPER_PORTAL(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV DEVELOPER_PORTAL)
+!define DEV_DEVELOPER_PORTAL(_alias) ENTITY(rectangle,black,developer_portal,_alias,DEV DEVELOPER_PORTAL)
+!define DEV_DEVELOPER_PORTAL(_alias, _label) ENTITY(rectangle,black,developer_portal,_label, _alias,DEV DEVELOPER_PORTAL)
+!define DEV_DEVELOPER_PORTAL(_alias, _label, _shape) ENTITY(_shape,black,developer_portal,_label, _alias,DEV DEVELOPER_PORTAL)
+!define DEV_DEVELOPER_PORTAL(_alias, _label, _shape, _color) ENTITY(_shape,_color,developer_portal,_label, _alias,DEV DEVELOPER_PORTAL)
 skinparam folderBackgroundColor<<DEV DEVELOPER_PORTAL>> White
 
 @enduml

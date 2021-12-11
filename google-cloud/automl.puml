@@ -53,10 +53,10 @@ sprite $automl [48x48/16] {
 
 
 
-!define DEV_AUTOML(_alias) ENTITY(rectangle,black,android,_alias,DEV AUTOML)
-!define DEV_AUTOML(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV AUTOML)
-!define DEV_AUTOML(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV AUTOML)
-!define DEV_AUTOML(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV AUTOML)
+!define DEV_AUTOML(_alias) ENTITY(rectangle,black,automl,_alias,DEV AUTOML)
+!define DEV_AUTOML(_alias, _label) ENTITY(rectangle,black,automl,_label, _alias,DEV AUTOML)
+!define DEV_AUTOML(_alias, _label, _shape) ENTITY(_shape,black,automl,_label, _alias,DEV AUTOML)
+!define DEV_AUTOML(_alias, _label, _shape, _color) ENTITY(_shape,_color,automl,_label, _alias,DEV AUTOML)
 skinparam folderBackgroundColor<<DEV AUTOML>> White
 
 @enduml

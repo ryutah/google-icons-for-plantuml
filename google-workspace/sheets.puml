@@ -53,10 +53,10 @@ sprite $sheets [48x48/16] {
 
 
 
-!define DEV_SHEETS(_alias) ENTITY(rectangle,black,android,_alias,DEV SHEETS)
-!define DEV_SHEETS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV SHEETS)
-!define DEV_SHEETS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV SHEETS)
-!define DEV_SHEETS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV SHEETS)
+!define DEV_SHEETS(_alias) ENTITY(rectangle,black,sheets,_alias,DEV SHEETS)
+!define DEV_SHEETS(_alias, _label) ENTITY(rectangle,black,sheets,_label, _alias,DEV SHEETS)
+!define DEV_SHEETS(_alias, _label, _shape) ENTITY(_shape,black,sheets,_label, _alias,DEV SHEETS)
+!define DEV_SHEETS(_alias, _label, _shape, _color) ENTITY(_shape,_color,sheets,_label, _alias,DEV SHEETS)
 skinparam folderBackgroundColor<<DEV SHEETS>> White
 
 @enduml

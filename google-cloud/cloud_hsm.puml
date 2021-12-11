@@ -53,10 +53,10 @@ sprite $cloud_hsm [48x48/16] {
 
 
 
-!define DEV_CLOUD_HSM(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_HSM)
-!define DEV_CLOUD_HSM(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_HSM)
-!define DEV_CLOUD_HSM(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_HSM)
-!define DEV_CLOUD_HSM(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_HSM)
+!define DEV_CLOUD_HSM(_alias) ENTITY(rectangle,black,cloud_hsm,_alias,DEV CLOUD_HSM)
+!define DEV_CLOUD_HSM(_alias, _label) ENTITY(rectangle,black,cloud_hsm,_label, _alias,DEV CLOUD_HSM)
+!define DEV_CLOUD_HSM(_alias, _label, _shape) ENTITY(_shape,black,cloud_hsm,_label, _alias,DEV CLOUD_HSM)
+!define DEV_CLOUD_HSM(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_hsm,_label, _alias,DEV CLOUD_HSM)
 skinparam folderBackgroundColor<<DEV CLOUD_HSM>> White
 
 @enduml

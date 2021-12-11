@@ -53,10 +53,10 @@ sprite $key_management_service [48x48/16] {
 
 
 
-!define DEV_KEY_MANAGEMENT_SERVICE(_alias) ENTITY(rectangle,black,android,_alias,DEV KEY_MANAGEMENT_SERVICE)
-!define DEV_KEY_MANAGEMENT_SERVICE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV KEY_MANAGEMENT_SERVICE)
-!define DEV_KEY_MANAGEMENT_SERVICE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV KEY_MANAGEMENT_SERVICE)
-!define DEV_KEY_MANAGEMENT_SERVICE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV KEY_MANAGEMENT_SERVICE)
+!define DEV_KEY_MANAGEMENT_SERVICE(_alias) ENTITY(rectangle,black,key_management_service,_alias,DEV KEY_MANAGEMENT_SERVICE)
+!define DEV_KEY_MANAGEMENT_SERVICE(_alias, _label) ENTITY(rectangle,black,key_management_service,_label, _alias,DEV KEY_MANAGEMENT_SERVICE)
+!define DEV_KEY_MANAGEMENT_SERVICE(_alias, _label, _shape) ENTITY(_shape,black,key_management_service,_label, _alias,DEV KEY_MANAGEMENT_SERVICE)
+!define DEV_KEY_MANAGEMENT_SERVICE(_alias, _label, _shape, _color) ENTITY(_shape,_color,key_management_service,_label, _alias,DEV KEY_MANAGEMENT_SERVICE)
 skinparam folderBackgroundColor<<DEV KEY_MANAGEMENT_SERVICE>> White
 
 @enduml

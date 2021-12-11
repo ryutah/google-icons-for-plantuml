@@ -53,10 +53,10 @@ sprite $automl_translation [48x48/16] {
 
 
 
-!define DEV_AUTOML_TRANSLATION(_alias) ENTITY(rectangle,black,android,_alias,DEV AUTOML_TRANSLATION)
-!define DEV_AUTOML_TRANSLATION(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV AUTOML_TRANSLATION)
-!define DEV_AUTOML_TRANSLATION(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV AUTOML_TRANSLATION)
-!define DEV_AUTOML_TRANSLATION(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV AUTOML_TRANSLATION)
+!define DEV_AUTOML_TRANSLATION(_alias) ENTITY(rectangle,black,automl_translation,_alias,DEV AUTOML_TRANSLATION)
+!define DEV_AUTOML_TRANSLATION(_alias, _label) ENTITY(rectangle,black,automl_translation,_label, _alias,DEV AUTOML_TRANSLATION)
+!define DEV_AUTOML_TRANSLATION(_alias, _label, _shape) ENTITY(_shape,black,automl_translation,_label, _alias,DEV AUTOML_TRANSLATION)
+!define DEV_AUTOML_TRANSLATION(_alias, _label, _shape, _color) ENTITY(_shape,_color,automl_translation,_label, _alias,DEV AUTOML_TRANSLATION)
 skinparam folderBackgroundColor<<DEV AUTOML_TRANSLATION>> White
 
 @enduml

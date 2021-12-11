@@ -53,10 +53,10 @@ sprite $performance_dashboard [48x48/16] {
 
 
 
-!define DEV_PERFORMANCE_DASHBOARD(_alias) ENTITY(rectangle,black,android,_alias,DEV PERFORMANCE_DASHBOARD)
-!define DEV_PERFORMANCE_DASHBOARD(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV PERFORMANCE_DASHBOARD)
-!define DEV_PERFORMANCE_DASHBOARD(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV PERFORMANCE_DASHBOARD)
-!define DEV_PERFORMANCE_DASHBOARD(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV PERFORMANCE_DASHBOARD)
+!define DEV_PERFORMANCE_DASHBOARD(_alias) ENTITY(rectangle,black,performance_dashboard,_alias,DEV PERFORMANCE_DASHBOARD)
+!define DEV_PERFORMANCE_DASHBOARD(_alias, _label) ENTITY(rectangle,black,performance_dashboard,_label, _alias,DEV PERFORMANCE_DASHBOARD)
+!define DEV_PERFORMANCE_DASHBOARD(_alias, _label, _shape) ENTITY(_shape,black,performance_dashboard,_label, _alias,DEV PERFORMANCE_DASHBOARD)
+!define DEV_PERFORMANCE_DASHBOARD(_alias, _label, _shape, _color) ENTITY(_shape,_color,performance_dashboard,_label, _alias,DEV PERFORMANCE_DASHBOARD)
 skinparam folderBackgroundColor<<DEV PERFORMANCE_DASHBOARD>> White
 
 @enduml

@@ -53,10 +53,10 @@ sprite $access_context_manager [48x48/16] {
 
 
 
-!define DEV_ACCESS_CONTEXT_MANAGER(_alias) ENTITY(rectangle,black,android,_alias,DEV ACCESS_CONTEXT_MANAGER)
-!define DEV_ACCESS_CONTEXT_MANAGER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV ACCESS_CONTEXT_MANAGER)
-!define DEV_ACCESS_CONTEXT_MANAGER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV ACCESS_CONTEXT_MANAGER)
-!define DEV_ACCESS_CONTEXT_MANAGER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV ACCESS_CONTEXT_MANAGER)
+!define DEV_ACCESS_CONTEXT_MANAGER(_alias) ENTITY(rectangle,black,access_context_manager,_alias,DEV ACCESS_CONTEXT_MANAGER)
+!define DEV_ACCESS_CONTEXT_MANAGER(_alias, _label) ENTITY(rectangle,black,access_context_manager,_label, _alias,DEV ACCESS_CONTEXT_MANAGER)
+!define DEV_ACCESS_CONTEXT_MANAGER(_alias, _label, _shape) ENTITY(_shape,black,access_context_manager,_label, _alias,DEV ACCESS_CONTEXT_MANAGER)
+!define DEV_ACCESS_CONTEXT_MANAGER(_alias, _label, _shape, _color) ENTITY(_shape,_color,access_context_manager,_label, _alias,DEV ACCESS_CONTEXT_MANAGER)
 skinparam folderBackgroundColor<<DEV ACCESS_CONTEXT_MANAGER>> White
 
 @enduml

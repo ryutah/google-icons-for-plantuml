@@ -53,10 +53,10 @@ sprite $partner_interconnect [48x48/16] {
 
 
 
-!define DEV_PARTNER_INTERCONNECT(_alias) ENTITY(rectangle,black,android,_alias,DEV PARTNER_INTERCONNECT)
-!define DEV_PARTNER_INTERCONNECT(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV PARTNER_INTERCONNECT)
-!define DEV_PARTNER_INTERCONNECT(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV PARTNER_INTERCONNECT)
-!define DEV_PARTNER_INTERCONNECT(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV PARTNER_INTERCONNECT)
+!define DEV_PARTNER_INTERCONNECT(_alias) ENTITY(rectangle,black,partner_interconnect,_alias,DEV PARTNER_INTERCONNECT)
+!define DEV_PARTNER_INTERCONNECT(_alias, _label) ENTITY(rectangle,black,partner_interconnect,_label, _alias,DEV PARTNER_INTERCONNECT)
+!define DEV_PARTNER_INTERCONNECT(_alias, _label, _shape) ENTITY(_shape,black,partner_interconnect,_label, _alias,DEV PARTNER_INTERCONNECT)
+!define DEV_PARTNER_INTERCONNECT(_alias, _label, _shape, _color) ENTITY(_shape,_color,partner_interconnect,_label, _alias,DEV PARTNER_INTERCONNECT)
 skinparam folderBackgroundColor<<DEV PARTNER_INTERCONNECT>> White
 
 @enduml

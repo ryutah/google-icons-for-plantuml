@@ -53,10 +53,10 @@ sprite $ai_hub [48x48/16] {
 
 
 
-!define DEV_AI_HUB(_alias) ENTITY(rectangle,black,android,_alias,DEV AI_HUB)
-!define DEV_AI_HUB(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV AI_HUB)
-!define DEV_AI_HUB(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV AI_HUB)
-!define DEV_AI_HUB(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV AI_HUB)
+!define DEV_AI_HUB(_alias) ENTITY(rectangle,black,ai_hub,_alias,DEV AI_HUB)
+!define DEV_AI_HUB(_alias, _label) ENTITY(rectangle,black,ai_hub,_label, _alias,DEV AI_HUB)
+!define DEV_AI_HUB(_alias, _label, _shape) ENTITY(_shape,black,ai_hub,_label, _alias,DEV AI_HUB)
+!define DEV_AI_HUB(_alias, _label, _shape, _color) ENTITY(_shape,_color,ai_hub,_label, _alias,DEV AI_HUB)
 skinparam folderBackgroundColor<<DEV AI_HUB>> White
 
 @enduml

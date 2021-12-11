@@ -53,10 +53,10 @@ sprite $network_intelligence_center [48x48/16] {
 
 
 
-!define DEV_NETWORK_INTELLIGENCE_CENTER(_alias) ENTITY(rectangle,black,android,_alias,DEV NETWORK_INTELLIGENCE_CENTER)
-!define DEV_NETWORK_INTELLIGENCE_CENTER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV NETWORK_INTELLIGENCE_CENTER)
-!define DEV_NETWORK_INTELLIGENCE_CENTER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV NETWORK_INTELLIGENCE_CENTER)
-!define DEV_NETWORK_INTELLIGENCE_CENTER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV NETWORK_INTELLIGENCE_CENTER)
+!define DEV_NETWORK_INTELLIGENCE_CENTER(_alias) ENTITY(rectangle,black,network_intelligence_center,_alias,DEV NETWORK_INTELLIGENCE_CENTER)
+!define DEV_NETWORK_INTELLIGENCE_CENTER(_alias, _label) ENTITY(rectangle,black,network_intelligence_center,_label, _alias,DEV NETWORK_INTELLIGENCE_CENTER)
+!define DEV_NETWORK_INTELLIGENCE_CENTER(_alias, _label, _shape) ENTITY(_shape,black,network_intelligence_center,_label, _alias,DEV NETWORK_INTELLIGENCE_CENTER)
+!define DEV_NETWORK_INTELLIGENCE_CENTER(_alias, _label, _shape, _color) ENTITY(_shape,_color,network_intelligence_center,_label, _alias,DEV NETWORK_INTELLIGENCE_CENTER)
 skinparam folderBackgroundColor<<DEV NETWORK_INTELLIGENCE_CENTER>> White
 
 @enduml

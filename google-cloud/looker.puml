@@ -53,10 +53,10 @@ sprite $looker [48x48/16] {
 
 
 
-!define DEV_LOOKER(_alias) ENTITY(rectangle,black,android,_alias,DEV LOOKER)
-!define DEV_LOOKER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV LOOKER)
-!define DEV_LOOKER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV LOOKER)
-!define DEV_LOOKER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV LOOKER)
+!define DEV_LOOKER(_alias) ENTITY(rectangle,black,looker,_alias,DEV LOOKER)
+!define DEV_LOOKER(_alias, _label) ENTITY(rectangle,black,looker,_label, _alias,DEV LOOKER)
+!define DEV_LOOKER(_alias, _label, _shape) ENTITY(_shape,black,looker,_label, _alias,DEV LOOKER)
+!define DEV_LOOKER(_alias, _label, _shape, _color) ENTITY(_shape,_color,looker,_label, _alias,DEV LOOKER)
 skinparam folderBackgroundColor<<DEV LOOKER>> White
 
 @enduml

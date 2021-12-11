@@ -53,10 +53,10 @@ sprite $early_access_center [48x48/16] {
 
 
 
-!define DEV_EARLY_ACCESS_CENTER(_alias) ENTITY(rectangle,black,android,_alias,DEV EARLY_ACCESS_CENTER)
-!define DEV_EARLY_ACCESS_CENTER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV EARLY_ACCESS_CENTER)
-!define DEV_EARLY_ACCESS_CENTER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV EARLY_ACCESS_CENTER)
-!define DEV_EARLY_ACCESS_CENTER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV EARLY_ACCESS_CENTER)
+!define DEV_EARLY_ACCESS_CENTER(_alias) ENTITY(rectangle,black,early_access_center,_alias,DEV EARLY_ACCESS_CENTER)
+!define DEV_EARLY_ACCESS_CENTER(_alias, _label) ENTITY(rectangle,black,early_access_center,_label, _alias,DEV EARLY_ACCESS_CENTER)
+!define DEV_EARLY_ACCESS_CENTER(_alias, _label, _shape) ENTITY(_shape,black,early_access_center,_label, _alias,DEV EARLY_ACCESS_CENTER)
+!define DEV_EARLY_ACCESS_CENTER(_alias, _label, _shape, _color) ENTITY(_shape,_color,early_access_center,_label, _alias,DEV EARLY_ACCESS_CENTER)
 skinparam folderBackgroundColor<<DEV EARLY_ACCESS_CENTER>> White
 
 @enduml

@@ -53,10 +53,10 @@ sprite $dataprep [48x48/16] {
 
 
 
-!define DEV_DATAPREP(_alias) ENTITY(rectangle,black,android,_alias,DEV DATAPREP)
-!define DEV_DATAPREP(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV DATAPREP)
-!define DEV_DATAPREP(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV DATAPREP)
-!define DEV_DATAPREP(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV DATAPREP)
+!define DEV_DATAPREP(_alias) ENTITY(rectangle,black,dataprep,_alias,DEV DATAPREP)
+!define DEV_DATAPREP(_alias, _label) ENTITY(rectangle,black,dataprep,_label, _alias,DEV DATAPREP)
+!define DEV_DATAPREP(_alias, _label, _shape) ENTITY(_shape,black,dataprep,_label, _alias,DEV DATAPREP)
+!define DEV_DATAPREP(_alias, _label, _shape, _color) ENTITY(_shape,_color,dataprep,_label, _alias,DEV DATAPREP)
 skinparam folderBackgroundColor<<DEV DATAPREP>> White
 
 @enduml

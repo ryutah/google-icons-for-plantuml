@@ -53,10 +53,10 @@ sprite $asset_inventory [48x48/16] {
 
 
 
-!define DEV_ASSET_INVENTORY(_alias) ENTITY(rectangle,black,android,_alias,DEV ASSET_INVENTORY)
-!define DEV_ASSET_INVENTORY(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV ASSET_INVENTORY)
-!define DEV_ASSET_INVENTORY(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV ASSET_INVENTORY)
-!define DEV_ASSET_INVENTORY(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV ASSET_INVENTORY)
+!define DEV_ASSET_INVENTORY(_alias) ENTITY(rectangle,black,asset_inventory,_alias,DEV ASSET_INVENTORY)
+!define DEV_ASSET_INVENTORY(_alias, _label) ENTITY(rectangle,black,asset_inventory,_label, _alias,DEV ASSET_INVENTORY)
+!define DEV_ASSET_INVENTORY(_alias, _label, _shape) ENTITY(_shape,black,asset_inventory,_label, _alias,DEV ASSET_INVENTORY)
+!define DEV_ASSET_INVENTORY(_alias, _label, _shape, _color) ENTITY(_shape,_color,asset_inventory,_label, _alias,DEV ASSET_INVENTORY)
 skinparam folderBackgroundColor<<DEV ASSET_INVENTORY>> White
 
 @enduml

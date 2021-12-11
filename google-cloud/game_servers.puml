@@ -53,10 +53,10 @@ sprite $game_servers [48x48/16] {
 
 
 
-!define DEV_GAME_SERVERS(_alias) ENTITY(rectangle,black,android,_alias,DEV GAME_SERVERS)
-!define DEV_GAME_SERVERS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV GAME_SERVERS)
-!define DEV_GAME_SERVERS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV GAME_SERVERS)
-!define DEV_GAME_SERVERS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV GAME_SERVERS)
+!define DEV_GAME_SERVERS(_alias) ENTITY(rectangle,black,game_servers,_alias,DEV GAME_SERVERS)
+!define DEV_GAME_SERVERS(_alias, _label) ENTITY(rectangle,black,game_servers,_label, _alias,DEV GAME_SERVERS)
+!define DEV_GAME_SERVERS(_alias, _label, _shape) ENTITY(_shape,black,game_servers,_label, _alias,DEV GAME_SERVERS)
+!define DEV_GAME_SERVERS(_alias, _label, _shape, _color) ENTITY(_shape,_color,game_servers,_label, _alias,DEV GAME_SERVERS)
 skinparam folderBackgroundColor<<DEV GAME_SERVERS>> White
 
 @enduml

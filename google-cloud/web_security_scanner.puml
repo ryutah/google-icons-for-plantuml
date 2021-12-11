@@ -53,10 +53,10 @@ sprite $web_security_scanner [48x48/16] {
 
 
 
-!define DEV_WEB_SECURITY_SCANNER(_alias) ENTITY(rectangle,black,android,_alias,DEV WEB_SECURITY_SCANNER)
-!define DEV_WEB_SECURITY_SCANNER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV WEB_SECURITY_SCANNER)
-!define DEV_WEB_SECURITY_SCANNER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV WEB_SECURITY_SCANNER)
-!define DEV_WEB_SECURITY_SCANNER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV WEB_SECURITY_SCANNER)
+!define DEV_WEB_SECURITY_SCANNER(_alias) ENTITY(rectangle,black,web_security_scanner,_alias,DEV WEB_SECURITY_SCANNER)
+!define DEV_WEB_SECURITY_SCANNER(_alias, _label) ENTITY(rectangle,black,web_security_scanner,_label, _alias,DEV WEB_SECURITY_SCANNER)
+!define DEV_WEB_SECURITY_SCANNER(_alias, _label, _shape) ENTITY(_shape,black,web_security_scanner,_label, _alias,DEV WEB_SECURITY_SCANNER)
+!define DEV_WEB_SECURITY_SCANNER(_alias, _label, _shape, _color) ENTITY(_shape,_color,web_security_scanner,_label, _alias,DEV WEB_SECURITY_SCANNER)
 skinparam folderBackgroundColor<<DEV WEB_SECURITY_SCANNER>> White
 
 @enduml

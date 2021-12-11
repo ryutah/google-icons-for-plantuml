@@ -53,10 +53,10 @@ sprite $policy_analyzer [48x48/16] {
 
 
 
-!define DEV_POLICY_ANALYZER(_alias) ENTITY(rectangle,black,android,_alias,DEV POLICY_ANALYZER)
-!define DEV_POLICY_ANALYZER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV POLICY_ANALYZER)
-!define DEV_POLICY_ANALYZER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV POLICY_ANALYZER)
-!define DEV_POLICY_ANALYZER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV POLICY_ANALYZER)
+!define DEV_POLICY_ANALYZER(_alias) ENTITY(rectangle,black,policy_analyzer,_alias,DEV POLICY_ANALYZER)
+!define DEV_POLICY_ANALYZER(_alias, _label) ENTITY(rectangle,black,policy_analyzer,_label, _alias,DEV POLICY_ANALYZER)
+!define DEV_POLICY_ANALYZER(_alias, _label, _shape) ENTITY(_shape,black,policy_analyzer,_label, _alias,DEV POLICY_ANALYZER)
+!define DEV_POLICY_ANALYZER(_alias, _label, _shape, _color) ENTITY(_shape,_color,policy_analyzer,_label, _alias,DEV POLICY_ANALYZER)
 skinparam folderBackgroundColor<<DEV POLICY_ANALYZER>> White
 
 @enduml

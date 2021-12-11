@@ -53,10 +53,10 @@ sprite $cloud_healthcare_marketplace [48x48/16] {
 
 
 
-!define DEV_CLOUD_HEALTHCARE_MARKETPLACE(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_HEALTHCARE_MARKETPLACE)
-!define DEV_CLOUD_HEALTHCARE_MARKETPLACE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_HEALTHCARE_MARKETPLACE)
-!define DEV_CLOUD_HEALTHCARE_MARKETPLACE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_HEALTHCARE_MARKETPLACE)
-!define DEV_CLOUD_HEALTHCARE_MARKETPLACE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_HEALTHCARE_MARKETPLACE)
+!define DEV_CLOUD_HEALTHCARE_MARKETPLACE(_alias) ENTITY(rectangle,black,cloud_healthcare_marketplace,_alias,DEV CLOUD_HEALTHCARE_MARKETPLACE)
+!define DEV_CLOUD_HEALTHCARE_MARKETPLACE(_alias, _label) ENTITY(rectangle,black,cloud_healthcare_marketplace,_label, _alias,DEV CLOUD_HEALTHCARE_MARKETPLACE)
+!define DEV_CLOUD_HEALTHCARE_MARKETPLACE(_alias, _label, _shape) ENTITY(_shape,black,cloud_healthcare_marketplace,_label, _alias,DEV CLOUD_HEALTHCARE_MARKETPLACE)
+!define DEV_CLOUD_HEALTHCARE_MARKETPLACE(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_healthcare_marketplace,_label, _alias,DEV CLOUD_HEALTHCARE_MARKETPLACE)
 skinparam folderBackgroundColor<<DEV CLOUD_HEALTHCARE_MARKETPLACE>> White
 
 @enduml

@@ -13,6 +13,7 @@ def create_puml(resource_name: str, sprite_text: str):
         template.render(
             sprite_definition=sprite_text,
             resource_name=resource_name.upper(),
+            sprite_name=resource_name,
         ),
     )
 

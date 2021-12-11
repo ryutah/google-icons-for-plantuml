@@ -53,10 +53,10 @@ sprite $trace [48x48/16] {
 
 
 
-!define DEV_TRACE(_alias) ENTITY(rectangle,black,android,_alias,DEV TRACE)
-!define DEV_TRACE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV TRACE)
-!define DEV_TRACE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV TRACE)
-!define DEV_TRACE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV TRACE)
+!define DEV_TRACE(_alias) ENTITY(rectangle,black,trace,_alias,DEV TRACE)
+!define DEV_TRACE(_alias, _label) ENTITY(rectangle,black,trace,_label, _alias,DEV TRACE)
+!define DEV_TRACE(_alias, _label, _shape) ENTITY(_shape,black,trace,_label, _alias,DEV TRACE)
+!define DEV_TRACE(_alias, _label, _shape, _color) ENTITY(_shape,_color,trace,_label, _alias,DEV TRACE)
 skinparam folderBackgroundColor<<DEV TRACE>> White
 
 @enduml

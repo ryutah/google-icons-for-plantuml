@@ -53,10 +53,10 @@ sprite $beyondcorp [48x48/16] {
 
 
 
-!define DEV_BEYONDCORP(_alias) ENTITY(rectangle,black,android,_alias,DEV BEYONDCORP)
-!define DEV_BEYONDCORP(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV BEYONDCORP)
-!define DEV_BEYONDCORP(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV BEYONDCORP)
-!define DEV_BEYONDCORP(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV BEYONDCORP)
+!define DEV_BEYONDCORP(_alias) ENTITY(rectangle,black,beyondcorp,_alias,DEV BEYONDCORP)
+!define DEV_BEYONDCORP(_alias, _label) ENTITY(rectangle,black,beyondcorp,_label, _alias,DEV BEYONDCORP)
+!define DEV_BEYONDCORP(_alias, _label, _shape) ENTITY(_shape,black,beyondcorp,_label, _alias,DEV BEYONDCORP)
+!define DEV_BEYONDCORP(_alias, _label, _shape, _color) ENTITY(_shape,_color,beyondcorp,_label, _alias,DEV BEYONDCORP)
 skinparam folderBackgroundColor<<DEV BEYONDCORP>> White
 
 @enduml

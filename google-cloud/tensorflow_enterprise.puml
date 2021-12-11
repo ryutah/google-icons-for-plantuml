@@ -53,10 +53,10 @@ sprite $tensorflow_enterprise [48x48/16] {
 
 
 
-!define DEV_TENSORFLOW_ENTERPRISE(_alias) ENTITY(rectangle,black,android,_alias,DEV TENSORFLOW_ENTERPRISE)
-!define DEV_TENSORFLOW_ENTERPRISE(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV TENSORFLOW_ENTERPRISE)
-!define DEV_TENSORFLOW_ENTERPRISE(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV TENSORFLOW_ENTERPRISE)
-!define DEV_TENSORFLOW_ENTERPRISE(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV TENSORFLOW_ENTERPRISE)
+!define DEV_TENSORFLOW_ENTERPRISE(_alias) ENTITY(rectangle,black,tensorflow_enterprise,_alias,DEV TENSORFLOW_ENTERPRISE)
+!define DEV_TENSORFLOW_ENTERPRISE(_alias, _label) ENTITY(rectangle,black,tensorflow_enterprise,_label, _alias,DEV TENSORFLOW_ENTERPRISE)
+!define DEV_TENSORFLOW_ENTERPRISE(_alias, _label, _shape) ENTITY(_shape,black,tensorflow_enterprise,_label, _alias,DEV TENSORFLOW_ENTERPRISE)
+!define DEV_TENSORFLOW_ENTERPRISE(_alias, _label, _shape, _color) ENTITY(_shape,_color,tensorflow_enterprise,_label, _alias,DEV TENSORFLOW_ENTERPRISE)
 skinparam folderBackgroundColor<<DEV TENSORFLOW_ENTERPRISE>> White
 
 @enduml

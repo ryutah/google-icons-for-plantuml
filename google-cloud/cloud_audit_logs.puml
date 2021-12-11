@@ -53,10 +53,10 @@ sprite $cloud_audit_logs [48x48/16] {
 
 
 
-!define DEV_CLOUD_AUDIT_LOGS(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_AUDIT_LOGS)
-!define DEV_CLOUD_AUDIT_LOGS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_AUDIT_LOGS)
-!define DEV_CLOUD_AUDIT_LOGS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_AUDIT_LOGS)
-!define DEV_CLOUD_AUDIT_LOGS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_AUDIT_LOGS)
+!define DEV_CLOUD_AUDIT_LOGS(_alias) ENTITY(rectangle,black,cloud_audit_logs,_alias,DEV CLOUD_AUDIT_LOGS)
+!define DEV_CLOUD_AUDIT_LOGS(_alias, _label) ENTITY(rectangle,black,cloud_audit_logs,_label, _alias,DEV CLOUD_AUDIT_LOGS)
+!define DEV_CLOUD_AUDIT_LOGS(_alias, _label, _shape) ENTITY(_shape,black,cloud_audit_logs,_label, _alias,DEV CLOUD_AUDIT_LOGS)
+!define DEV_CLOUD_AUDIT_LOGS(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_audit_logs,_label, _alias,DEV CLOUD_AUDIT_LOGS)
 skinparam folderBackgroundColor<<DEV CLOUD_AUDIT_LOGS>> White
 
 @enduml

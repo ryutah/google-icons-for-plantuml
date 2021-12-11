@@ -53,10 +53,10 @@ sprite $api_analytics [48x48/16] {
 
 
 
-!define DEV_API_ANALYTICS(_alias) ENTITY(rectangle,black,android,_alias,DEV API_ANALYTICS)
-!define DEV_API_ANALYTICS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV API_ANALYTICS)
-!define DEV_API_ANALYTICS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV API_ANALYTICS)
-!define DEV_API_ANALYTICS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV API_ANALYTICS)
+!define DEV_API_ANALYTICS(_alias) ENTITY(rectangle,black,api_analytics,_alias,DEV API_ANALYTICS)
+!define DEV_API_ANALYTICS(_alias, _label) ENTITY(rectangle,black,api_analytics,_label, _alias,DEV API_ANALYTICS)
+!define DEV_API_ANALYTICS(_alias, _label, _shape) ENTITY(_shape,black,api_analytics,_label, _alias,DEV API_ANALYTICS)
+!define DEV_API_ANALYTICS(_alias, _label, _shape, _color) ENTITY(_shape,_color,api_analytics,_label, _alias,DEV API_ANALYTICS)
 skinparam folderBackgroundColor<<DEV API_ANALYTICS>> White
 
 @enduml

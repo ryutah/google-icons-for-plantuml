@@ -53,10 +53,10 @@ sprite $pubsub [48x48/16] {
 
 
 
-!define DEV_PUBSUB(_alias) ENTITY(rectangle,black,android,_alias,DEV PUBSUB)
-!define DEV_PUBSUB(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV PUBSUB)
-!define DEV_PUBSUB(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV PUBSUB)
-!define DEV_PUBSUB(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV PUBSUB)
+!define DEV_PUBSUB(_alias) ENTITY(rectangle,black,pubsub,_alias,DEV PUBSUB)
+!define DEV_PUBSUB(_alias, _label) ENTITY(rectangle,black,pubsub,_label, _alias,DEV PUBSUB)
+!define DEV_PUBSUB(_alias, _label, _shape) ENTITY(_shape,black,pubsub,_label, _alias,DEV PUBSUB)
+!define DEV_PUBSUB(_alias, _label, _shape, _color) ENTITY(_shape,_color,pubsub,_label, _alias,DEV PUBSUB)
 skinparam folderBackgroundColor<<DEV PUBSUB>> White
 
 @enduml

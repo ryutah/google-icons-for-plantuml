@@ -53,10 +53,10 @@ sprite $billing [48x48/16] {
 
 
 
-!define DEV_BILLING(_alias) ENTITY(rectangle,black,android,_alias,DEV BILLING)
-!define DEV_BILLING(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV BILLING)
-!define DEV_BILLING(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV BILLING)
-!define DEV_BILLING(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV BILLING)
+!define DEV_BILLING(_alias) ENTITY(rectangle,black,billing,_alias,DEV BILLING)
+!define DEV_BILLING(_alias, _label) ENTITY(rectangle,black,billing,_label, _alias,DEV BILLING)
+!define DEV_BILLING(_alias, _label, _shape) ENTITY(_shape,black,billing,_label, _alias,DEV BILLING)
+!define DEV_BILLING(_alias, _label, _shape, _color) ENTITY(_shape,_color,billing,_label, _alias,DEV BILLING)
 skinparam folderBackgroundColor<<DEV BILLING>> White
 
 @enduml

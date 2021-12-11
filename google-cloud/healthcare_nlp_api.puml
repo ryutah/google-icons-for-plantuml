@@ -53,10 +53,10 @@ sprite $healthcare_nlp_api [48x48/16] {
 
 
 
-!define DEV_HEALTHCARE_NLP_API(_alias) ENTITY(rectangle,black,android,_alias,DEV HEALTHCARE_NLP_API)
-!define DEV_HEALTHCARE_NLP_API(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV HEALTHCARE_NLP_API)
-!define DEV_HEALTHCARE_NLP_API(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV HEALTHCARE_NLP_API)
-!define DEV_HEALTHCARE_NLP_API(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV HEALTHCARE_NLP_API)
+!define DEV_HEALTHCARE_NLP_API(_alias) ENTITY(rectangle,black,healthcare_nlp_api,_alias,DEV HEALTHCARE_NLP_API)
+!define DEV_HEALTHCARE_NLP_API(_alias, _label) ENTITY(rectangle,black,healthcare_nlp_api,_label, _alias,DEV HEALTHCARE_NLP_API)
+!define DEV_HEALTHCARE_NLP_API(_alias, _label, _shape) ENTITY(_shape,black,healthcare_nlp_api,_label, _alias,DEV HEALTHCARE_NLP_API)
+!define DEV_HEALTHCARE_NLP_API(_alias, _label, _shape, _color) ENTITY(_shape,_color,healthcare_nlp_api,_label, _alias,DEV HEALTHCARE_NLP_API)
 skinparam folderBackgroundColor<<DEV HEALTHCARE_NLP_API>> White
 
 @enduml

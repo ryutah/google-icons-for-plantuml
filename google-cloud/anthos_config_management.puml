@@ -53,10 +53,10 @@ sprite $anthos_config_management [48x48/16] {
 
 
 
-!define DEV_ANTHOS_CONFIG_MANAGEMENT(_alias) ENTITY(rectangle,black,android,_alias,DEV ANTHOS_CONFIG_MANAGEMENT)
-!define DEV_ANTHOS_CONFIG_MANAGEMENT(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV ANTHOS_CONFIG_MANAGEMENT)
-!define DEV_ANTHOS_CONFIG_MANAGEMENT(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV ANTHOS_CONFIG_MANAGEMENT)
-!define DEV_ANTHOS_CONFIG_MANAGEMENT(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV ANTHOS_CONFIG_MANAGEMENT)
+!define DEV_ANTHOS_CONFIG_MANAGEMENT(_alias) ENTITY(rectangle,black,anthos_config_management,_alias,DEV ANTHOS_CONFIG_MANAGEMENT)
+!define DEV_ANTHOS_CONFIG_MANAGEMENT(_alias, _label) ENTITY(rectangle,black,anthos_config_management,_label, _alias,DEV ANTHOS_CONFIG_MANAGEMENT)
+!define DEV_ANTHOS_CONFIG_MANAGEMENT(_alias, _label, _shape) ENTITY(_shape,black,anthos_config_management,_label, _alias,DEV ANTHOS_CONFIG_MANAGEMENT)
+!define DEV_ANTHOS_CONFIG_MANAGEMENT(_alias, _label, _shape, _color) ENTITY(_shape,_color,anthos_config_management,_label, _alias,DEV ANTHOS_CONFIG_MANAGEMENT)
 skinparam folderBackgroundColor<<DEV ANTHOS_CONFIG_MANAGEMENT>> White
 
 @enduml

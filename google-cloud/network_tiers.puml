@@ -53,10 +53,10 @@ sprite $network_tiers [48x48/16] {
 
 
 
-!define DEV_NETWORK_TIERS(_alias) ENTITY(rectangle,black,android,_alias,DEV NETWORK_TIERS)
-!define DEV_NETWORK_TIERS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV NETWORK_TIERS)
-!define DEV_NETWORK_TIERS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV NETWORK_TIERS)
-!define DEV_NETWORK_TIERS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV NETWORK_TIERS)
+!define DEV_NETWORK_TIERS(_alias) ENTITY(rectangle,black,network_tiers,_alias,DEV NETWORK_TIERS)
+!define DEV_NETWORK_TIERS(_alias, _label) ENTITY(rectangle,black,network_tiers,_label, _alias,DEV NETWORK_TIERS)
+!define DEV_NETWORK_TIERS(_alias, _label, _shape) ENTITY(_shape,black,network_tiers,_label, _alias,DEV NETWORK_TIERS)
+!define DEV_NETWORK_TIERS(_alias, _label, _shape, _color) ENTITY(_shape,_color,network_tiers,_label, _alias,DEV NETWORK_TIERS)
 skinparam folderBackgroundColor<<DEV NETWORK_TIERS>> White
 
 @enduml

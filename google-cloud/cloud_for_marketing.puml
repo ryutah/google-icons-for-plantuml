@@ -53,10 +53,10 @@ sprite $cloud_for_marketing [48x48/16] {
 
 
 
-!define DEV_CLOUD_FOR_MARKETING(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_FOR_MARKETING)
-!define DEV_CLOUD_FOR_MARKETING(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_FOR_MARKETING)
-!define DEV_CLOUD_FOR_MARKETING(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_FOR_MARKETING)
-!define DEV_CLOUD_FOR_MARKETING(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_FOR_MARKETING)
+!define DEV_CLOUD_FOR_MARKETING(_alias) ENTITY(rectangle,black,cloud_for_marketing,_alias,DEV CLOUD_FOR_MARKETING)
+!define DEV_CLOUD_FOR_MARKETING(_alias, _label) ENTITY(rectangle,black,cloud_for_marketing,_label, _alias,DEV CLOUD_FOR_MARKETING)
+!define DEV_CLOUD_FOR_MARKETING(_alias, _label, _shape) ENTITY(_shape,black,cloud_for_marketing,_label, _alias,DEV CLOUD_FOR_MARKETING)
+!define DEV_CLOUD_FOR_MARKETING(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_for_marketing,_label, _alias,DEV CLOUD_FOR_MARKETING)
 skinparam folderBackgroundColor<<DEV CLOUD_FOR_MARKETING>> White
 
 @enduml

@@ -53,10 +53,10 @@ sprite $cloud_healthcare_api [48x48/16] {
 
 
 
-!define DEV_CLOUD_HEALTHCARE_API(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_HEALTHCARE_API)
-!define DEV_CLOUD_HEALTHCARE_API(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_HEALTHCARE_API)
-!define DEV_CLOUD_HEALTHCARE_API(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_HEALTHCARE_API)
-!define DEV_CLOUD_HEALTHCARE_API(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_HEALTHCARE_API)
+!define DEV_CLOUD_HEALTHCARE_API(_alias) ENTITY(rectangle,black,cloud_healthcare_api,_alias,DEV CLOUD_HEALTHCARE_API)
+!define DEV_CLOUD_HEALTHCARE_API(_alias, _label) ENTITY(rectangle,black,cloud_healthcare_api,_label, _alias,DEV CLOUD_HEALTHCARE_API)
+!define DEV_CLOUD_HEALTHCARE_API(_alias, _label, _shape) ENTITY(_shape,black,cloud_healthcare_api,_label, _alias,DEV CLOUD_HEALTHCARE_API)
+!define DEV_CLOUD_HEALTHCARE_API(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_healthcare_api,_label, _alias,DEV CLOUD_HEALTHCARE_API)
 skinparam folderBackgroundColor<<DEV CLOUD_HEALTHCARE_API>> White
 
 @enduml

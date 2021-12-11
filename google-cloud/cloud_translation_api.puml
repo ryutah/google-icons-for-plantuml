@@ -53,10 +53,10 @@ sprite $cloud_translation_api [48x48/16] {
 
 
 
-!define DEV_CLOUD_TRANSLATION_API(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_TRANSLATION_API)
-!define DEV_CLOUD_TRANSLATION_API(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_TRANSLATION_API)
-!define DEV_CLOUD_TRANSLATION_API(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_TRANSLATION_API)
-!define DEV_CLOUD_TRANSLATION_API(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_TRANSLATION_API)
+!define DEV_CLOUD_TRANSLATION_API(_alias) ENTITY(rectangle,black,cloud_translation_api,_alias,DEV CLOUD_TRANSLATION_API)
+!define DEV_CLOUD_TRANSLATION_API(_alias, _label) ENTITY(rectangle,black,cloud_translation_api,_label, _alias,DEV CLOUD_TRANSLATION_API)
+!define DEV_CLOUD_TRANSLATION_API(_alias, _label, _shape) ENTITY(_shape,black,cloud_translation_api,_label, _alias,DEV CLOUD_TRANSLATION_API)
+!define DEV_CLOUD_TRANSLATION_API(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_translation_api,_label, _alias,DEV CLOUD_TRANSLATION_API)
 skinparam folderBackgroundColor<<DEV CLOUD_TRANSLATION_API>> White
 
 @enduml

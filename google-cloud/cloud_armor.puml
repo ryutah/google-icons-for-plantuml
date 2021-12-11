@@ -53,10 +53,10 @@ sprite $cloud_armor [48x48/16] {
 
 
 
-!define DEV_CLOUD_ARMOR(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_ARMOR)
-!define DEV_CLOUD_ARMOR(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_ARMOR)
-!define DEV_CLOUD_ARMOR(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_ARMOR)
-!define DEV_CLOUD_ARMOR(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_ARMOR)
+!define DEV_CLOUD_ARMOR(_alias) ENTITY(rectangle,black,cloud_armor,_alias,DEV CLOUD_ARMOR)
+!define DEV_CLOUD_ARMOR(_alias, _label) ENTITY(rectangle,black,cloud_armor,_label, _alias,DEV CLOUD_ARMOR)
+!define DEV_CLOUD_ARMOR(_alias, _label, _shape) ENTITY(_shape,black,cloud_armor,_label, _alias,DEV CLOUD_ARMOR)
+!define DEV_CLOUD_ARMOR(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_armor,_label, _alias,DEV CLOUD_ARMOR)
 skinparam folderBackgroundColor<<DEV CLOUD_ARMOR>> White
 
 @enduml

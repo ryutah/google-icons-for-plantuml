@@ -53,10 +53,10 @@ sprite $dataflow [48x48/16] {
 
 
 
-!define DEV_DATAFLOW(_alias) ENTITY(rectangle,black,android,_alias,DEV DATAFLOW)
-!define DEV_DATAFLOW(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV DATAFLOW)
-!define DEV_DATAFLOW(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV DATAFLOW)
-!define DEV_DATAFLOW(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV DATAFLOW)
+!define DEV_DATAFLOW(_alias) ENTITY(rectangle,black,dataflow,_alias,DEV DATAFLOW)
+!define DEV_DATAFLOW(_alias, _label) ENTITY(rectangle,black,dataflow,_label, _alias,DEV DATAFLOW)
+!define DEV_DATAFLOW(_alias, _label, _shape) ENTITY(_shape,black,dataflow,_label, _alias,DEV DATAFLOW)
+!define DEV_DATAFLOW(_alias, _label, _shape, _color) ENTITY(_shape,_color,dataflow,_label, _alias,DEV DATAFLOW)
 skinparam folderBackgroundColor<<DEV DATAFLOW>> White
 
 @enduml

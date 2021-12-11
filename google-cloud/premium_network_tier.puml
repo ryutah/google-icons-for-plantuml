@@ -53,10 +53,10 @@ sprite $premium_network_tier [48x48/16] {
 
 
 
-!define DEV_PREMIUM_NETWORK_TIER(_alias) ENTITY(rectangle,black,android,_alias,DEV PREMIUM_NETWORK_TIER)
-!define DEV_PREMIUM_NETWORK_TIER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV PREMIUM_NETWORK_TIER)
-!define DEV_PREMIUM_NETWORK_TIER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV PREMIUM_NETWORK_TIER)
-!define DEV_PREMIUM_NETWORK_TIER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV PREMIUM_NETWORK_TIER)
+!define DEV_PREMIUM_NETWORK_TIER(_alias) ENTITY(rectangle,black,premium_network_tier,_alias,DEV PREMIUM_NETWORK_TIER)
+!define DEV_PREMIUM_NETWORK_TIER(_alias, _label) ENTITY(rectangle,black,premium_network_tier,_label, _alias,DEV PREMIUM_NETWORK_TIER)
+!define DEV_PREMIUM_NETWORK_TIER(_alias, _label, _shape) ENTITY(_shape,black,premium_network_tier,_label, _alias,DEV PREMIUM_NETWORK_TIER)
+!define DEV_PREMIUM_NETWORK_TIER(_alias, _label, _shape, _color) ENTITY(_shape,_color,premium_network_tier,_label, _alias,DEV PREMIUM_NETWORK_TIER)
 skinparam folderBackgroundColor<<DEV PREMIUM_NETWORK_TIER>> White
 
 @enduml

@@ -53,10 +53,10 @@ sprite $profiler [48x48/16] {
 
 
 
-!define DEV_PROFILER(_alias) ENTITY(rectangle,black,android,_alias,DEV PROFILER)
-!define DEV_PROFILER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV PROFILER)
-!define DEV_PROFILER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV PROFILER)
-!define DEV_PROFILER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV PROFILER)
+!define DEV_PROFILER(_alias) ENTITY(rectangle,black,profiler,_alias,DEV PROFILER)
+!define DEV_PROFILER(_alias, _label) ENTITY(rectangle,black,profiler,_label, _alias,DEV PROFILER)
+!define DEV_PROFILER(_alias, _label, _shape) ENTITY(_shape,black,profiler,_label, _alias,DEV PROFILER)
+!define DEV_PROFILER(_alias, _label, _shape, _color) ENTITY(_shape,_color,profiler,_label, _alias,DEV PROFILER)
 skinparam folderBackgroundColor<<DEV PROFILER>> White
 
 @enduml

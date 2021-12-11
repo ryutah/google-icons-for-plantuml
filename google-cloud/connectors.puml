@@ -53,10 +53,10 @@ sprite $connectors [48x48/16] {
 
 
 
-!define DEV_CONNECTORS(_alias) ENTITY(rectangle,black,android,_alias,DEV CONNECTORS)
-!define DEV_CONNECTORS(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CONNECTORS)
-!define DEV_CONNECTORS(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CONNECTORS)
-!define DEV_CONNECTORS(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CONNECTORS)
+!define DEV_CONNECTORS(_alias) ENTITY(rectangle,black,connectors,_alias,DEV CONNECTORS)
+!define DEV_CONNECTORS(_alias, _label) ENTITY(rectangle,black,connectors,_label, _alias,DEV CONNECTORS)
+!define DEV_CONNECTORS(_alias, _label, _shape) ENTITY(_shape,black,connectors,_label, _alias,DEV CONNECTORS)
+!define DEV_CONNECTORS(_alias, _label, _shape, _color) ENTITY(_shape,_color,connectors,_label, _alias,DEV CONNECTORS)
 skinparam folderBackgroundColor<<DEV CONNECTORS>> White
 
 @enduml

@@ -53,10 +53,10 @@ sprite $phishing_protection [48x48/16] {
 
 
 
-!define DEV_PHISHING_PROTECTION(_alias) ENTITY(rectangle,black,android,_alias,DEV PHISHING_PROTECTION)
-!define DEV_PHISHING_PROTECTION(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV PHISHING_PROTECTION)
-!define DEV_PHISHING_PROTECTION(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV PHISHING_PROTECTION)
-!define DEV_PHISHING_PROTECTION(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV PHISHING_PROTECTION)
+!define DEV_PHISHING_PROTECTION(_alias) ENTITY(rectangle,black,phishing_protection,_alias,DEV PHISHING_PROTECTION)
+!define DEV_PHISHING_PROTECTION(_alias, _label) ENTITY(rectangle,black,phishing_protection,_label, _alias,DEV PHISHING_PROTECTION)
+!define DEV_PHISHING_PROTECTION(_alias, _label, _shape) ENTITY(_shape,black,phishing_protection,_label, _alias,DEV PHISHING_PROTECTION)
+!define DEV_PHISHING_PROTECTION(_alias, _label, _shape, _color) ENTITY(_shape,_color,phishing_protection,_label, _alias,DEV PHISHING_PROTECTION)
 skinparam folderBackgroundColor<<DEV PHISHING_PROTECTION>> White
 
 @enduml

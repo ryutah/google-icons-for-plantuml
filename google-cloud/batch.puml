@@ -53,10 +53,10 @@ sprite $batch [48x48/16] {
 
 
 
-!define DEV_BATCH(_alias) ENTITY(rectangle,black,android,_alias,DEV BATCH)
-!define DEV_BATCH(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV BATCH)
-!define DEV_BATCH(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV BATCH)
-!define DEV_BATCH(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV BATCH)
+!define DEV_BATCH(_alias) ENTITY(rectangle,black,batch,_alias,DEV BATCH)
+!define DEV_BATCH(_alias, _label) ENTITY(rectangle,black,batch,_label, _alias,DEV BATCH)
+!define DEV_BATCH(_alias, _label, _shape) ENTITY(_shape,black,batch,_label, _alias,DEV BATCH)
+!define DEV_BATCH(_alias, _label, _shape, _color) ENTITY(_shape,_color,batch,_label, _alias,DEV BATCH)
 skinparam folderBackgroundColor<<DEV BATCH>> White
 
 @enduml

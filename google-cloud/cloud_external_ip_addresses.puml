@@ -53,10 +53,10 @@ sprite $cloud_external_ip_addresses [48x48/16] {
 
 
 
-!define DEV_CLOUD_EXTERNAL_IP_ADDRESSES(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_EXTERNAL_IP_ADDRESSES)
-!define DEV_CLOUD_EXTERNAL_IP_ADDRESSES(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_EXTERNAL_IP_ADDRESSES)
-!define DEV_CLOUD_EXTERNAL_IP_ADDRESSES(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_EXTERNAL_IP_ADDRESSES)
-!define DEV_CLOUD_EXTERNAL_IP_ADDRESSES(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_EXTERNAL_IP_ADDRESSES)
+!define DEV_CLOUD_EXTERNAL_IP_ADDRESSES(_alias) ENTITY(rectangle,black,cloud_external_ip_addresses,_alias,DEV CLOUD_EXTERNAL_IP_ADDRESSES)
+!define DEV_CLOUD_EXTERNAL_IP_ADDRESSES(_alias, _label) ENTITY(rectangle,black,cloud_external_ip_addresses,_label, _alias,DEV CLOUD_EXTERNAL_IP_ADDRESSES)
+!define DEV_CLOUD_EXTERNAL_IP_ADDRESSES(_alias, _label, _shape) ENTITY(_shape,black,cloud_external_ip_addresses,_label, _alias,DEV CLOUD_EXTERNAL_IP_ADDRESSES)
+!define DEV_CLOUD_EXTERNAL_IP_ADDRESSES(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_external_ip_addresses,_label, _alias,DEV CLOUD_EXTERNAL_IP_ADDRESSES)
 skinparam folderBackgroundColor<<DEV CLOUD_EXTERNAL_IP_ADDRESSES>> White
 
 @enduml

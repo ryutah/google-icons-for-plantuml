@@ -53,10 +53,10 @@ sprite $cloud_spanner [48x48/16] {
 
 
 
-!define DEV_CLOUD_SPANNER(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_SPANNER)
-!define DEV_CLOUD_SPANNER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_SPANNER)
-!define DEV_CLOUD_SPANNER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_SPANNER)
-!define DEV_CLOUD_SPANNER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_SPANNER)
+!define DEV_CLOUD_SPANNER(_alias) ENTITY(rectangle,black,cloud_spanner,_alias,DEV CLOUD_SPANNER)
+!define DEV_CLOUD_SPANNER(_alias, _label) ENTITY(rectangle,black,cloud_spanner,_label, _alias,DEV CLOUD_SPANNER)
+!define DEV_CLOUD_SPANNER(_alias, _label, _shape) ENTITY(_shape,black,cloud_spanner,_label, _alias,DEV CLOUD_SPANNER)
+!define DEV_CLOUD_SPANNER(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_spanner,_label, _alias,DEV CLOUD_SPANNER)
 skinparam folderBackgroundColor<<DEV CLOUD_SPANNER>> White
 
 @enduml

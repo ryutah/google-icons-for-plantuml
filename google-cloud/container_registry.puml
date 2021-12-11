@@ -53,10 +53,10 @@ sprite $container_registry [48x48/16] {
 
 
 
-!define DEV_CONTAINER_REGISTRY(_alias) ENTITY(rectangle,black,android,_alias,DEV CONTAINER_REGISTRY)
-!define DEV_CONTAINER_REGISTRY(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CONTAINER_REGISTRY)
-!define DEV_CONTAINER_REGISTRY(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CONTAINER_REGISTRY)
-!define DEV_CONTAINER_REGISTRY(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CONTAINER_REGISTRY)
+!define DEV_CONTAINER_REGISTRY(_alias) ENTITY(rectangle,black,container_registry,_alias,DEV CONTAINER_REGISTRY)
+!define DEV_CONTAINER_REGISTRY(_alias, _label) ENTITY(rectangle,black,container_registry,_label, _alias,DEV CONTAINER_REGISTRY)
+!define DEV_CONTAINER_REGISTRY(_alias, _label, _shape) ENTITY(_shape,black,container_registry,_label, _alias,DEV CONTAINER_REGISTRY)
+!define DEV_CONTAINER_REGISTRY(_alias, _label, _shape, _color) ENTITY(_shape,_color,container_registry,_label, _alias,DEV CONTAINER_REGISTRY)
 skinparam folderBackgroundColor<<DEV CONTAINER_REGISTRY>> White
 
 @enduml

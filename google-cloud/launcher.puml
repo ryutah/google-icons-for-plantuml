@@ -53,10 +53,10 @@ sprite $launcher [48x48/16] {
 
 
 
-!define DEV_LAUNCHER(_alias) ENTITY(rectangle,black,android,_alias,DEV LAUNCHER)
-!define DEV_LAUNCHER(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV LAUNCHER)
-!define DEV_LAUNCHER(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV LAUNCHER)
-!define DEV_LAUNCHER(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV LAUNCHER)
+!define DEV_LAUNCHER(_alias) ENTITY(rectangle,black,launcher,_alias,DEV LAUNCHER)
+!define DEV_LAUNCHER(_alias, _label) ENTITY(rectangle,black,launcher,_label, _alias,DEV LAUNCHER)
+!define DEV_LAUNCHER(_alias, _label, _shape) ENTITY(_shape,black,launcher,_label, _alias,DEV LAUNCHER)
+!define DEV_LAUNCHER(_alias, _label, _shape, _color) ENTITY(_shape,_color,launcher,_label, _alias,DEV LAUNCHER)
 skinparam folderBackgroundColor<<DEV LAUNCHER>> White
 
 @enduml

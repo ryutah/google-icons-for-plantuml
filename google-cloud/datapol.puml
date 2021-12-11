@@ -53,10 +53,10 @@ sprite $datapol [48x48/16] {
 
 
 
-!define DEV_DATAPOL(_alias) ENTITY(rectangle,black,android,_alias,DEV DATAPOL)
-!define DEV_DATAPOL(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV DATAPOL)
-!define DEV_DATAPOL(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV DATAPOL)
-!define DEV_DATAPOL(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV DATAPOL)
+!define DEV_DATAPOL(_alias) ENTITY(rectangle,black,datapol,_alias,DEV DATAPOL)
+!define DEV_DATAPOL(_alias, _label) ENTITY(rectangle,black,datapol,_label, _alias,DEV DATAPOL)
+!define DEV_DATAPOL(_alias, _label, _shape) ENTITY(_shape,black,datapol,_label, _alias,DEV DATAPOL)
+!define DEV_DATAPOL(_alias, _label, _shape, _color) ENTITY(_shape,_color,datapol,_label, _alias,DEV DATAPOL)
 skinparam folderBackgroundColor<<DEV DATAPOL>> White
 
 @enduml

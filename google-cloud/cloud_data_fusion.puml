@@ -53,10 +53,10 @@ sprite $cloud_data_fusion [48x48/16] {
 
 
 
-!define DEV_CLOUD_DATA_FUSION(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_DATA_FUSION)
-!define DEV_CLOUD_DATA_FUSION(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_DATA_FUSION)
-!define DEV_CLOUD_DATA_FUSION(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_DATA_FUSION)
-!define DEV_CLOUD_DATA_FUSION(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_DATA_FUSION)
+!define DEV_CLOUD_DATA_FUSION(_alias) ENTITY(rectangle,black,cloud_data_fusion,_alias,DEV CLOUD_DATA_FUSION)
+!define DEV_CLOUD_DATA_FUSION(_alias, _label) ENTITY(rectangle,black,cloud_data_fusion,_label, _alias,DEV CLOUD_DATA_FUSION)
+!define DEV_CLOUD_DATA_FUSION(_alias, _label, _shape) ENTITY(_shape,black,cloud_data_fusion,_label, _alias,DEV CLOUD_DATA_FUSION)
+!define DEV_CLOUD_DATA_FUSION(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_data_fusion,_label, _alias,DEV CLOUD_DATA_FUSION)
 skinparam folderBackgroundColor<<DEV CLOUD_DATA_FUSION>> White
 
 @enduml

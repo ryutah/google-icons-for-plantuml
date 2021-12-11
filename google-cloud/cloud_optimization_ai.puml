@@ -53,10 +53,10 @@ sprite $cloud_optimization_ai [48x48/16] {
 
 
 
-!define DEV_CLOUD_OPTIMIZATION_AI(_alias) ENTITY(rectangle,black,android,_alias,DEV CLOUD_OPTIMIZATION_AI)
-!define DEV_CLOUD_OPTIMIZATION_AI(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV CLOUD_OPTIMIZATION_AI)
-!define DEV_CLOUD_OPTIMIZATION_AI(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV CLOUD_OPTIMIZATION_AI)
-!define DEV_CLOUD_OPTIMIZATION_AI(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV CLOUD_OPTIMIZATION_AI)
+!define DEV_CLOUD_OPTIMIZATION_AI(_alias) ENTITY(rectangle,black,cloud_optimization_ai,_alias,DEV CLOUD_OPTIMIZATION_AI)
+!define DEV_CLOUD_OPTIMIZATION_AI(_alias, _label) ENTITY(rectangle,black,cloud_optimization_ai,_label, _alias,DEV CLOUD_OPTIMIZATION_AI)
+!define DEV_CLOUD_OPTIMIZATION_AI(_alias, _label, _shape) ENTITY(_shape,black,cloud_optimization_ai,_label, _alias,DEV CLOUD_OPTIMIZATION_AI)
+!define DEV_CLOUD_OPTIMIZATION_AI(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloud_optimization_ai,_label, _alias,DEV CLOUD_OPTIMIZATION_AI)
 skinparam folderBackgroundColor<<DEV CLOUD_OPTIMIZATION_AI>> White
 
 @enduml

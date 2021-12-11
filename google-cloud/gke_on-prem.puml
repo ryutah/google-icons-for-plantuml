@@ -53,10 +53,10 @@ sprite $gke_on [48x48/16] {
 
 
 
-!define DEV_GKE_ON-PREM(_alias) ENTITY(rectangle,black,android,_alias,DEV GKE_ON-PREM)
-!define DEV_GKE_ON-PREM(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV GKE_ON-PREM)
-!define DEV_GKE_ON-PREM(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV GKE_ON-PREM)
-!define DEV_GKE_ON-PREM(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV GKE_ON-PREM)
+!define DEV_GKE_ON-PREM(_alias) ENTITY(rectangle,black,gke_on-prem,_alias,DEV GKE_ON-PREM)
+!define DEV_GKE_ON-PREM(_alias, _label) ENTITY(rectangle,black,gke_on-prem,_label, _alias,DEV GKE_ON-PREM)
+!define DEV_GKE_ON-PREM(_alias, _label, _shape) ENTITY(_shape,black,gke_on-prem,_label, _alias,DEV GKE_ON-PREM)
+!define DEV_GKE_ON-PREM(_alias, _label, _shape, _color) ENTITY(_shape,_color,gke_on-prem,_label, _alias,DEV GKE_ON-PREM)
 skinparam folderBackgroundColor<<DEV GKE_ON-PREM>> White
 
 @enduml

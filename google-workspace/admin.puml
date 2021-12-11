@@ -53,10 +53,10 @@ sprite $admin [48x48/16] {
 
 
 
-!define DEV_ADMIN(_alias) ENTITY(rectangle,black,android,_alias,DEV ADMIN)
-!define DEV_ADMIN(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV ADMIN)
-!define DEV_ADMIN(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV ADMIN)
-!define DEV_ADMIN(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV ADMIN)
+!define DEV_ADMIN(_alias) ENTITY(rectangle,black,admin,_alias,DEV ADMIN)
+!define DEV_ADMIN(_alias, _label) ENTITY(rectangle,black,admin,_label, _alias,DEV ADMIN)
+!define DEV_ADMIN(_alias, _label, _shape) ENTITY(_shape,black,admin,_label, _alias,DEV ADMIN)
+!define DEV_ADMIN(_alias, _label, _shape, _color) ENTITY(_shape,_color,admin,_label, _alias,DEV ADMIN)
 skinparam folderBackgroundColor<<DEV ADMIN>> White
 
 @enduml

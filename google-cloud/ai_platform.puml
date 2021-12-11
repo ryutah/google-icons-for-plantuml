@@ -53,10 +53,10 @@ sprite $ai_platform [48x48/16] {
 
 
 
-!define DEV_AI_PLATFORM(_alias) ENTITY(rectangle,black,android,_alias,DEV AI_PLATFORM)
-!define DEV_AI_PLATFORM(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV AI_PLATFORM)
-!define DEV_AI_PLATFORM(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV AI_PLATFORM)
-!define DEV_AI_PLATFORM(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV AI_PLATFORM)
+!define DEV_AI_PLATFORM(_alias) ENTITY(rectangle,black,ai_platform,_alias,DEV AI_PLATFORM)
+!define DEV_AI_PLATFORM(_alias, _label) ENTITY(rectangle,black,ai_platform,_label, _alias,DEV AI_PLATFORM)
+!define DEV_AI_PLATFORM(_alias, _label, _shape) ENTITY(_shape,black,ai_platform,_label, _alias,DEV AI_PLATFORM)
+!define DEV_AI_PLATFORM(_alias, _label, _shape, _color) ENTITY(_shape,_color,ai_platform,_label, _alias,DEV AI_PLATFORM)
 skinparam folderBackgroundColor<<DEV AI_PLATFORM>> White
 
 @enduml

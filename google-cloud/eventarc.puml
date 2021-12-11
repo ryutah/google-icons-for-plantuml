@@ -53,10 +53,10 @@ sprite $eventarc [48x48/16] {
 
 
 
-!define DEV_EVENTARC(_alias) ENTITY(rectangle,black,android,_alias,DEV EVENTARC)
-!define DEV_EVENTARC(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV EVENTARC)
-!define DEV_EVENTARC(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV EVENTARC)
-!define DEV_EVENTARC(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV EVENTARC)
+!define DEV_EVENTARC(_alias) ENTITY(rectangle,black,eventarc,_alias,DEV EVENTARC)
+!define DEV_EVENTARC(_alias, _label) ENTITY(rectangle,black,eventarc,_label, _alias,DEV EVENTARC)
+!define DEV_EVENTARC(_alias, _label, _shape) ENTITY(_shape,black,eventarc,_label, _alias,DEV EVENTARC)
+!define DEV_EVENTARC(_alias, _label, _shape, _color) ENTITY(_shape,_color,eventarc,_label, _alias,DEV EVENTARC)
 skinparam folderBackgroundColor<<DEV EVENTARC>> White
 
 @enduml

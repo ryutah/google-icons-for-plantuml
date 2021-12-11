@@ -53,10 +53,10 @@ sprite $identity_and_access_management [48x48/16] {
 
 
 
-!define DEV_IDENTITY_AND_ACCESS_MANAGEMENT(_alias) ENTITY(rectangle,black,android,_alias,DEV IDENTITY_AND_ACCESS_MANAGEMENT)
-!define DEV_IDENTITY_AND_ACCESS_MANAGEMENT(_alias, _label) ENTITY(rectangle,black,android,_label, _alias,DEV IDENTITY_AND_ACCESS_MANAGEMENT)
-!define DEV_IDENTITY_AND_ACCESS_MANAGEMENT(_alias, _label, _shape) ENTITY(_shape,black,android,_label, _alias,DEV IDENTITY_AND_ACCESS_MANAGEMENT)
-!define DEV_IDENTITY_AND_ACCESS_MANAGEMENT(_alias, _label, _shape, _color) ENTITY(_shape,_color,android,_label, _alias,DEV IDENTITY_AND_ACCESS_MANAGEMENT)
+!define DEV_IDENTITY_AND_ACCESS_MANAGEMENT(_alias) ENTITY(rectangle,black,identity_and_access_management,_alias,DEV IDENTITY_AND_ACCESS_MANAGEMENT)
+!define DEV_IDENTITY_AND_ACCESS_MANAGEMENT(_alias, _label) ENTITY(rectangle,black,identity_and_access_management,_label, _alias,DEV IDENTITY_AND_ACCESS_MANAGEMENT)
+!define DEV_IDENTITY_AND_ACCESS_MANAGEMENT(_alias, _label, _shape) ENTITY(_shape,black,identity_and_access_management,_label, _alias,DEV IDENTITY_AND_ACCESS_MANAGEMENT)
+!define DEV_IDENTITY_AND_ACCESS_MANAGEMENT(_alias, _label, _shape, _color) ENTITY(_shape,_color,identity_and_access_management,_label, _alias,DEV IDENTITY_AND_ACCESS_MANAGEMENT)
 skinparam folderBackgroundColor<<DEV IDENTITY_AND_ACCESS_MANAGEMENT>> White
 
 @enduml

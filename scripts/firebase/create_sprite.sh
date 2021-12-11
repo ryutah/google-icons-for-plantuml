@@ -6,20 +6,16 @@ source ./variables.sh
 set -eu
 
 out_file_name() {
-  echo $1 | sed -E 's/.*\/logo_([^_]+)_.*\.png/\1/g'
+  base_dir_raplace=$(echo ${source_dir_path} | sed -E 's/\//\\\//g' | sed -E 's/\./\\./g')
+  echo $1 | sed -E "s/${base_dir_raplace}\/([^\/]+).+/\1/g" | sed -E 's/\s/_/g' | tr '[A-Z]' '[a-z]'
 }
 export -f out_file_name
 
 gen_sprite_image() {
   target_file_path=$1
-  dist_file_name=$(bash -c "out_file_name ${target_file_path}")
-
-  convert ${target_file_path} \
-    -fuzz 25% \
-    -fill none \
-    -draw "matte 0,0 floodfill" \
-    -background white \
-    -flatten ${dist_dir_path}/${dist_file_name}.png
+  dist_file_name=$(bash -c "out_file_name '${target_file_path}'")
+  set -x
+  inkscape -w 48 -h 48 "${target_file_path}" -o "${dist_dir_path}/${dist_file_name}.png" -b "#00000000"
 }
 export -f gen_sprite_image
 
@@ -34,11 +30,10 @@ clear_dist_dir() {
 }
 
 resize_image() {
-  find ${source_icon_path} |
-    grep '.*48dp\.png' |
+  find ${source_dir_path} |
+    grep '.(1- Icon, Dark).svg' |
     sed -E 's/\.\/(.+)/\1/g' |
-    xargs -I {} bash -c "gen_sprite_image {}"
-  # xargs -I {} echo {}
+    xargs -I {} bash -c "gen_sprite_image '{}'"
 }
 
 create_puml() {
@@ -47,10 +42,6 @@ create_puml() {
     sed -E 's/.*\/(.+)\.png/\1/g' |
     xargs -I {} bash -c "gen_sprite {}"
 }
-
-if [[ $(ls ${source_dir_path} | wc -l) = 0 ]]; then
-  exit 0
-fi
 
 clear_dist_dir
 resize_image

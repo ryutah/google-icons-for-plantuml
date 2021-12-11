@@ -4,8 +4,8 @@ help: ## Prints help for targets with comments
 
 .PHONY: build
 build: ## build sprites
-	./scripts/download_gcp_icons.sh
-	./scripts/create_sprite.sh
+	./scripts/google-cloud/download_icons.sh
+	./scripts/google-cloud/create_sprite.sh
 
 .PHONY: generate/snippets
 generate/snippets: ## generate snippets file

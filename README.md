@@ -37,12 +37,11 @@ If you want to use sprite macro like [tupadr3/plantuml-icon-font-sprites](https:
 
 ## Example
 
+### with c4 model
+
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
-
-!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.4.0
-!includeurl ICONURL/common.puml
 
 !define GICONURL https://raw.githubusercontent.com/ryutah/google-icons-for-plantuml/master/google-cloud
 !include GICONURL/cloud_run.puml
@@ -61,12 +60,31 @@ SystemDb(cloud_storage, "Cloud Storage", "storage", $sprite="cloud_storage")
 
 System(calendar, "Calendar", "calendar", $sprite="calendar")
 System(gmail, "Gmail", "gmail", $sprite="gmail")
-
-DEV_CLOUD_RUN(cloud_run2)
 @enduml
 ```
 
-![image](https://user-images.githubusercontent.com/6662577/145675866-9bc3dec2-bf38-4e49-a26e-eb7841f4dbf3.png)
+![image](https://user-images.githubusercontent.com/6662577/145676231-9ae5be27-52e4-473b-a938-6c49b6206bf3.png)
+
+### with macro
+
+```plantuml
+@startuml
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.4.0
+!includeurl ICONURL/common.puml
+
+!define GICONURL https://raw.githubusercontent.com/ryutah/google-icons-for-plantuml/master/google-cloud
+!include GICONURL/cloud_run.puml
+
+skinparam defaultTextAlignment center
+
+DEV_CLOUD_RUN(cloud_run)
+DEV_CLOUD_RUN(cloud_run2,label of cloud_run2)
+DEV_CLOUD_RUN(cloud_run3,label of cloud_run3,database)
+DEV_CLOUD_RUN(cloud_run4,label of cloud_run4,database,red) #DeepSkyBlue
+@enduml
+```
+
+![image](https://user-images.githubusercontent.com/6662577/145676182-944da91a-01aa-49d8-b37f-eeb619c4d6f8.png)
 
 ## How to builds
 
